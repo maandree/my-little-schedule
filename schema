@@ -1,0 +1,228 @@
+6.0 hp   DD2380   Artificiell intelligens
+6.0 hp   DD2387   Programsystemkonstruktion med C++
+6.0 hp   DD2395   Datasäkerhet
+15.0 hp  UMK801   Verka i skolan - ämnesdidaktik
+
+
+--- Legend ---
+
+
+! framför tid: har lovat att gå på
+* framför tid: vet inte om jag ska gå på, på grund av krock
+~ framför tid: ska inte gå på, på grund av krock
+^ framför tid: ska gå på, men inte på de krockande
+- framför tid: kan inte gå på
++ framför tid: har lovat att gå på annans
+/ framför tid: går inte på
+? framför tid: föreslaget
+& framför tid: bara jag
+# framför tid: inte jag       (sätt typ till #)
+> framför tid: missad
+
+- framför typ: inställd
+
+# som första tecknet:  kommentar
+
+
+--- Period 1 ---
+
+
+::Vecka 35, 2012
+Tis  (08)aug-28  13:00-15:00  Föreläsning  DD2387    B3                
+Tor  (08)aug-30  15:00-17:00  Föreläsning  DD2380    F1                
+Fre  (08)aug-31  08:00-10:00  Föreläsning  DD2380    F1                
+                 10:00-12:00  Laboration   DD2380    Brun              
+                 15:00-16:00  Räknestuga   DD2380    Egen              
+
+
+::Vecka 36, 2012
+Mån  (09)sep-03  13:00-15:00  Föreläsning  DD2395    M2                
+                 15:00-16:00  Räknestuga   DD2380    Egen              
+Tis  (09)sep-04 *10:00-12:00  Föreläsning  DD2387    B2                
+                *10:00-12:00  Föreläsning  DD2395    M2                
+Ons  (09)sep-05  15:00-17:00  Föreläsning  DD2380    F1                
+Tor  (09)sep-06  08:00-10:00  Övning       DD2387    Q13, Q15, Q22     
+                *15:00-17:00  Laboration   DD2387    Sport             Hjälp
+                *15:00-17:00  Laboration   DD2380    Spel              
+Fre  (09)sep-07  10:00-12:00  ?            DD2387    D3                
+                 13:00-15:00  Föreläsning  DD2380    F1                
+                 15:00-17:00  Räknestuga   DD2380    Egen              
+
+
+::Vecka 37, 2012
+Mån  (09)sep-10  10:00-12:00  Föreläsning  DD2380    F1                
+                *13:00-15:00  Laboration   DD2387    Brun              Hjälp
+                *13:00-15:00  Föreläsning  DD2395    M2                
+Tis  (09)sep-11 *13:00-15:00  Föreläsning  DD2387    B3                
+                *13:00-15:00  Föreläsning  DD2395    M2                
+                 16:00-17:00  Räknestuga   DD2380    Egen              
+Ons  (09)sep-12  15:00-17:00  Föreläsning  DD2380    F1                
+Tor  (09)sep-13  15:00-17:00  Laboration   DD2380    Spel              
+Fre  (09)sep-14  10:00-12:00  Föreläsning  DD2380    Q1                
+                 13:00-15:00  Räknestuga   DD2380    Egen              
+                 15:00-17:00  Övning       DD2387    E32, E34, E36     
+
+
+::Vecka 38, 2012
+Mån  (09)sep-17  13:00-15:00  Föreläsning  DD2395    M2                
+                 15:00-17:00  Laboration   DD2380    Spel              
+Tis  (09)sep-18 *08:00-10:00  Laboration   DD2395    Gul               
+                *08:00-10:00  Föreläsning  DD2380    F1                
+                 10:00-12:00  Föreläsning  DD2395    M2                
+                 15:00-17:00  Räknestuga   DD2380    Egen              
+Ons  (09)sep-19  08:00-10:00  Laboration   DD2395    Gul               
+                 15:00-17:00  Övning       DD2387    Brun              Hjälp
+Tor  (09)sep-20 *14:00-16:00  Räknestuga   DD2380    Egen              
+                *15:00-17:00  Föreläsning  DD2380    F1                
+Fre  (09)sep-21  10:00-12:00  Laboration   DD2395    Gul               
+                 13:00-15:00  Laboration   DD2395    Gul               
+                 15:00-17:00  Föreläsning  DD2387    D3                
+
+
+::Vecka 39, 2012
+Mån  (09)sep-24  13:00-15:00  Föreläsning  DD2395    M2                
+                 15:00-19:00  REDOVISNING  DD2387    Orange            
+Tis  (09)sep-25  08:00-10:00  Föreläsning  DD2380    D1                
+                 10:00-12:00  Laboration   DD2395    Gul               
+                 16:00-17:00  Räknestuga   DD2380    Egen              
+Ons  (09)sep-26  08:00-10:00  Laboration   DD2395    Gul               
+                *13:00-15:00  Föreläsning  DD2380    F2                
+                *13:00-15:00  Föreläsning  DD2395    M2                
+                 15:00-17:00  Föreläsning  DD2387    B3                
+Tor  (09)sep-27  13:00-15:00  Övning       DD2387    M21-23            
+                 15:00-17:00  Laboration   DD2380    Spel              
+Fre  (09)sep-28  10:00-12:00  Laboration   DD2395    Gul               
+                 13:00-15:00  Laboration   DD2395    Gul               
+                 15:00-17:00  Räknestuga   DD2380    Egen              
+                 17:00-19:00  Laboration   DD2387    Orange            Hjälp
+
+
+::Vecka 40, 2012
+Mån  (10)okt-01  15:00-17:00  Laboration   DD2387    Orange            Hjälp
+Tis  (10)okt-02  08:00-10:00  Laboratio    DD2395    Gul               
+                *15:00-17:00  Föreläsning  DD2387    B3                
+                *16:00-17:00  Räknestuga   DD2380    Egen              
+Ons  (10)okt-03  08:00-10:00  Laboration   DD2395    Gul               
+                 10:00-12:00  Förläsning   DD2380    F1                
+                 15:00-17:00  Laboration   DD2380    Spel              
+Fre  (10)okt-05  10:00-12:00  Laboration   DD2395    Gul               
+                *13:00-15:00  Räknestuga   DD2380    Egen              
+                *13:00-15:00  Laboration   DD2395    Gul               
+
+
+::Vecka 41, 2012
+Mån  (10)okt-08  13:00-15:00  Föreläsning  DD2395    M2                
+Tis  (10)okt-09  08:00-10:00  Laboration   DD2395    Gul               
+                 13:00-15:00  Föreläsning  DD2387    D3                
+                 16:00-17:00  Räknestuga   DD2380    Egen              
+Ons  (10)okt-10  08:00-10:00  Laboration   DD2395    Gul               
+Fre  (10)okt-12  10:00-12:00  Laboration   DD2395    Gul               
+                *13:00-15:00  Laboration   DD2380    Brun              
+                *13:00-15:00  Laboration   DD2395    Gul               
+                 15:00-17:00  Räknestuga   DD2380    Egen              
+
+
+--- Tentaperiod ---
+
+
+::Vecka 42, 2012
+Mån  (10)okt-15  08:00+12:00  TENTAMEN     DD2387    F1                
+
+
+--- Period 2 ---
+
+
+::Vecka 43, 2012
+Mån  (10)okt-22  08:30+09:30  ?            UMK801    ?                 
+                 10:00+12:00  ?            UMK801    ?                 Matematik-didaktik
+                *13:00+15:00  ?            UMK801    ?                 Data-didaktik
+                *15:00-17:00  Laboration   DD2387    Gul               Hjälp
+Tis  (10)okt-23  08:00-17:00  VFU          UMK801    VFU               
+                 13:00-15:00  Föreläsning  DD2395    M2                
+Ons  (10)okt-24  08:00-17:00  VFU          UMK801    VFU               
+                 08:00-10:00  Laboration   DD2395    Gul               
+                 10:00-12:00  Laboration   DD2395    Gul               
+Tor  (10)okt-25  08:00-17:00  VFU          UMK801    VFU               
+                 13:00-15:00  Föreläsning  DD2395    M2                
+Fre  (10)okt-26  08:00-17:00  VFU          UMK801    VFU               
+                 08:00-10:00  Laboration   DD2395    Gul               
+                 10:00-12:00  Laboration   DD2395    Gul               
+
+
+::Vecka 44, 2012
+Mån  (10)okt-29  08:00-17:00  VFU          UMK801    VFU               
+Tis  (10)okt-30  08:00-17:00  VFU          UMK801    VFU               
+                 15:00-17:00  Föreläsning  DD2387    D3                
+Ons  (10)okt-31  08:00+11:00  ?            UMK801    ?                 Data-didaktik
+                *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
+                *15:00-17:00  Föreläsning  DD2395    M2                
+Tor  (11)nov-01  08:00-10:00  Föreläsning  DD2395    M2                
+                *11:00-15:00  Laboration   DD2395    Gul               
+                *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
+Fre  (11)nov-02  08:00+11:00  ?            UMK801    ?                 Data-didaktik
+                *13:00-17:00  REDOVISNING  DD2387    Orange            
+                *13:00-17:00  Laboration   DD2395    Gul               
+                *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
+
+
+::Vecka 45, 2012
+Mån  (11)nov-05  08:00-17:00  VFU          UMK801    VFU               
+                 13:00-15:00  Föreläsning  DD2395    L1                
+Tis  (11)nov-06  08:00-17:00  VFU          UMK801    VFU               
+                 13:00-15:00  Föreläsning  DD2395    M2                
+Ons  (11)nov-07  08:00-17:00  VFU          UMK801    VFU               
+Tor  (11)nov-08  08:00-17:00  VFU          UMK801    VFU               
+                 08:00-12:00  Laboration   DD2395    Gul               
+                 13:00-15:00  Seminarium   DD2395d   E35               
+Fre  (11)nov-09  08:00-17:00  VFU          UMK801    VFU               
+                 08:00-12:00  Laboration   DD2395    Gul               
+                 13:00-15:00  Seminarium   DD2395ef  V34-35            
+
+
+::Vecka 46, 2012
+Mån  (11)nov-12  08:00-17:00  VFU          UMK801    VFU               
+Tis  (11)nov-13  08:00-17:00  VFU          UMK801    VFU               
+                 13:00-15:00  Föreläsning  DD2395    M2                
+Ons  (11)nov-14  08:00-17:00  VFU          UMK801    VFU               
+Tor  (11)nov-15  08:00-17:00  VFU          UMK801    VFU               
+Fre  (11)nov-16  08:00-17:00  VFU          UMK801    VFU               
+                *10:00-12:00  Laboration   DD2387    Orage             Hjälp
+                *10:00-12:00  Seminarium   DD2396abc D33, D41-42       
+                 13:00-15:00  Föreläsning  DD2387    B3                
+
+
+::Vecka 47, 2012
+Mån  (11)nov-19  08:00-17:00  VFU          UMK801    VFU               
+Tis  (11)nov-20  08:00-17:00  VFU          UMK801    VFU               
+Ons  (11)nov-21  08:00-17:00  VFU          UMK801    VFU               
+Tor  (11)nov-22  08:00-17:00  VFU          UMK801    VFU               
+Fre  (11)nov-23  08:00-17:00  VFU          UMK801    VFU               
+
+
+::Vecka 48, 2012
+Mån  (11)nov-26  08:00-17:00  VFU          UMK801    VFU               
+Tis  (11)nov-27  08:00-17:00  VFU          UMK801    VFU               
+Ons  (11)nov-28  08:00-17:00  VFU          UMK801    VFU               
+                 15:00-17:00  Laboration   DD2387    Orange            Hjälp
+Tor  (11)nov-29  08:00-17:00  VFU          UMK801    VFU               
+Fre  (11)nov-30  08:00-17:00  VFU          UMK801    VFU               
+                 10:00-12:00  Seminarium   DD2395    D33, D35          
+
+
+::Vecka 49, 2012
+Mån  (12)dec-03  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-04  08:00-17:00  VFU          UMK801    VFU               
+Ons  (12)dec-05  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-06  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-07  08:00-17:00  VFU          UMK801    VFU               
+
+
+::Vecka 50, 2012
+Mån  (12)dec-10  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-11  08:00-17:00  VFU          UMK801    VFU               
+                 14:00-16:00  REDOVISNING  DD2387    Orange            
+Ons  (12)dec-12  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-13  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-14 ~08:00-17:00  VFU          UMK801    VFU               
+                ^14:00+19:00  TENTAMEN     DD2396    E33-36, E51-53    
+
