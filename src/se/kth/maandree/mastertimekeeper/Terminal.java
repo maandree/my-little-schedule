@@ -1,5 +1,5 @@
 /**
- * Master Time Keeper – The perfect graphical terminal scheme viewer
+ * Master Time Keeper – The perfect graphical terminal schedule viewer
  * 
  * Copyright © 2012  Mattias Andrée (maandree@kth.se)
  * 
