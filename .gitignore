@@ -1,0 +1,29 @@
+##  compiled files  ##
+######################
+
+/bin/
+/doc/javadoc/
+*.class
+
+
+##  private files  ##
+#####################
+
+/ecj.jar
+/dev/ecj.jar
+/dev/libsrc/
+
+
+##  backup files  ##
+####################
+
+*~
+\#*\#
+.\#*
+
+
+##  cvs files for web  ##
+#########################
+
+/web/CVS/
+
