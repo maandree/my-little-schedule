@@ -231,6 +231,23 @@ public class Terminal
     
     
     /**
+     * Initialise a terminal
+     */
+    public static void initialiseTerminal()
+    {
+        Terminal.out.print("\033[?1049h");
+    }
+    
+    /**
+     * Terminate a terminal
+     */
+    public static void terminateTerminal()
+    {
+        Terminal.out.print("\033[?1049l");
+    }
+    
+    
+    /**
      * Gets the terminal ($TERM).<br/>
      * Known terminals:<br/>
      * "linux" ∋ Linux VT<br/>
@@ -267,7 +284,7 @@ public class Terminal
         while (((c = stream.read()) != '\n') && (c != -1))
             rcs += (char)c;
 
-        return Integer.valueOf(rcs);
+        return Integer.parseInt(rcs);
     }
 
     /**
@@ -285,7 +302,7 @@ public class Terminal
         while (((c = stream.read()) != '\n') && (c != -1))
             rcs += (char)c;
 
-        return Integer.valueOf(rcs);
+        return Integer.parseInt(rcs);
     }
 
     /**

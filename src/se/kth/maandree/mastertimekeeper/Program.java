@@ -71,10 +71,13 @@ public class Program
 		raws.add(line);
 	    }
 	    
+	    Terminal.initialiseTerminal();
 	    Terminal.setEchoFlag(false);
 	    Terminal.setBufferFlag(false);
 	    Terminal.setSignalFlag(false);
 	    Terminal.setCursorVisibility(false);
+	    
+	    StringBuilder buf = new StringBuilder("\033[H\033[2J");
 	    
 	    int width = Terminal.getTerminalWidth();
 	    int height = Terminal.getTerminalHeight();
@@ -85,55 +88,30 @@ public class Program
 	    if (top >= raws.size())
 		top = 0;
 	    int cur = top;
+	    int dispheight = height - bottom - top;
 	    
 	    for (int i = 0; i < top; i++)
-		System.out.print(lines.get(i));
-	    for (int i = 0; i < height - bottom - top; i++)
-		System.out.print(lines.get(cur + i));
-	    String procent = String.valueOf((cur - top) * 100 / (lines.size() - top));
-	    if (procent.length() == 1)
-		procent = '0' + procent;
-	    if (lines.size() < height - bottom)  procent = "ALL";
-	    else if (procent.equals("00"))	 procent = "TOP";
-	    else if (procent.equals("100"))	 procent = "BOT";
-	    else
-		procent += '%';
-	    System.out.println("\033[44;33;1m\033[J  " + procent + "  \033[0m");
+		buf.append(lines.get(i));
+	    for (int i = cur, lim = cur + height - bottom - top; i < lim; i++)
+		buf.append(i < lines.size() ? lines.get(i) : "\n");
+	    String procent = (lines.size() < height - bottom) ? "ALL" : "TOP";
+	    buf.append("\033[44;33;1m\033[2K  " + procent + "  \033[49;39;21m\n");
+	    System.out.print(buf.toString());
+	    buf = new StringBuilder("\033[H\033[2J");
 	    
 	    for (int d = 0; d >= 0; d = System.in.read())
 	    {
 		if (d == 'q')
 		    break;
 		
-		int nav = 0;
-		
 		switch (d)
 		{
-		    case 12: //^L
-			width = Terminal.getTerminalWidth();
-			height = Terminal.getTerminalHeight();
-			for (int i = 0; i < top; i++)
-			    System.out.print(lines.get(i));
-			for (int i = 0; i < height - bottom - top; i++)
-			    System.out.print(lines.get(cur + i));
-			procent = String.valueOf((cur - top) * 100 / (lines.size() - top));
-			if (procent.length() == 1)
-			    procent = '0' + procent;
-			if (lines.size() < height - bottom)  procent = "ALL";
-			else if (procent.equals("00"))	     procent = "TOP";
-			else if (procent.equals("100"))	     procent = "BOT";
-			else
-			    procent += '%';
-			System.out.println("\033[44;33;1m\033[J  " + procent + "  \033[0m");
-			break;
-			
 		    case 53: //page up
-			nav -= height - bottom - top;
-			nav++;
-			//$FALL-THRU$
+			cur -= dispheight;
+			cur++;
+			//$FALL-THROUGH$
 		    case 65: //up
-			nav--;
-			cur += nav;
+			cur--;
 			if (cur < top)
 			{
 			    cur = top;
@@ -143,15 +121,40 @@ public class Program
 			
 		    case 54: //page down
 		    case 32: //space
-			nav += height - bottom - top;
-			//$FALL-THRU$
-			nav--;
+			cur += dispheight;
+			cur--;
+			//$FALL-THROUGH$
 		    case 66: //down
 		    case 10: //enter
-			nav++;
-			cur += nav;
+			cur++;
+			if (cur > lines.size() - dispheight + 1)
+			{
+			    cur = lines.size() - dispheight + 1;
+			    if (cur < top)
+				cur = top;
+			    break;
+			}
 			break;
 		}
+		
+		width = Terminal.getTerminalWidth();
+		height = Terminal.getTerminalHeight();
+	        dispheight = height - bottom - top;
+		for (int i = 0; i < top; i++)
+		    buf.append(lines.get(i));
+		for (int i = cur, lim = cur + dispheight; i < lim; i++)
+		    buf.append(i < lines.size() ? lines.get(i) : "\n");
+		procent = String.valueOf((int)((cur - top) * 100. / (lines.size() - top - dispheight + 1) + 0.5));
+		if (procent.length() == 1)
+		    procent = '0' + procent;
+		if (lines.size() < height - bottom)               procent = "ALL";
+		else if (cur == top)                              procent = "TOP";
+		else if (cur == lines.size() - dispheight + 1)    procent = "BOT";
+		else
+		    procent += '%';
+		buf.append("\033[44;33;1m\033[2K  " + procent + "  \033[49;39;21m\n");
+		System.out.print(buf.toString());
+		buf = new StringBuilder("\033[H\033[2J");
 	    }
 	}
 	catch (final Throwable err)
@@ -165,6 +168,7 @@ public class Program
 	    Terminal.setBufferFlag(true);
 	    Terminal.setSignalFlag(true);
 	    Terminal.setCursorVisibility(true);
+	    Terminal.terminateTerminal();
 	}
     }
     
@@ -198,9 +202,9 @@ public class Program
 		legendState = 1;
 	    else if (legendState == 1)
 		legendState = 2;
-	    out.append("\033[47;30m\033[J");
+	    out.append("\033[47;30m\033[2K");
 	    out.append(line);
-	    out.append("\033[0m\n");
+	    out.append("\033[49;39m\n");
 	}
 	else if (legendState < 2)
 	{
@@ -209,7 +213,7 @@ public class Program
 	    {
 		out.append("\033[" + colour + "m");
 		out.append(line.substring(0, 1));
-		out.append("\033[0m");
+		out.append("\033[21;39;49;0m");
 		out.append(line.substring(1));
 	    }
 	    else
@@ -220,21 +224,21 @@ public class Program
 	{
 	    out.append("\033[31m");
 	    out.append(line);
-	    out.append("\033[0m\n");
+	    out.append("\033[39m\n");
 	}
 	else if (line.startsWith("::"))
 	{
 	    out.append("\033[34;1m");
 	    out.append(line.substring(0, 2));
-	    out.append("\033[0;34m");
+	    out.append("\033[21m");
 	    out.append(line.substring(2));
-	    out.append("\033[0m\n");
+	    out.append("\033[39m\n");
 	}
 	else if (line.startsWith("#"))
 	{
 	    out.append("\033[32m");
 	    out.append(line);
-	    out.append("\033[0m\n");
+	    out.append("\033[39m\n");
 	}
 	else if (line.length() > 53)
 	{
@@ -244,13 +248,13 @@ public class Program
 		out.append(line.substring(0, 16));
 		out.append("\033[" + colour + "m");
 		out.append(line.substring(16, 17));
-		out.append("\033[0m");
+		out.append("\033[21;39;49;0m");
 		if ((colour = colourmap.get(line.substring(29, 30))) != null)
 		{
 		    out.append(line.substring(17, 29));
 		    out.append("\033[" + colour + "m");
 		    out.append(line.substring(29, 30));
-		    out.append("\033[0m");
+		    out.append("\033[21;39;49;0m");
 		}
 		else
 		    out.append(line.substring(17, 30));
@@ -260,7 +264,7 @@ public class Program
 		out.append(line.substring(0, 29));
 		out.append("\033[" + colour + "m");
 		out.append(line.substring(29, 30));
-		out.append("\033[0m");
+		out.append("\033[21;39;49;0m");
 	    }
 	    else
 		out.append(line.substring(0, 30));
@@ -273,13 +277,13 @@ public class Program
 		out.append("\033[33m");
 	    
 	    out.append(line.substring(30, 43));
-	    out.append("\033[0m");
+	    out.append("\033[39m");
 	    if (line.substring(43, 51).startsWith("<"))
 		out.append("\033[31m");
 	    out.append(line.substring(43, 53));
-	    out.append("\033[0m");
+	    out.append("\033[39m");
 	    if (line.charAt(53) == '?')
-	        out.append("\033[31m?\033[0m");
+	        out.append("\033[31m?\033[39m");
 	    else
 		out.append(line.charAt(53));
 	    out.append(line.substring(54));
