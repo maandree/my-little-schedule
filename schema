@@ -37,6 +37,7 @@ Fre  (08)aug-24  14:00-16:00  Föreläsning  MJ2612    V3
 Tis  (08)aug-28  13:00-15:00  Föreläsning  DD2387    B3                
                  15:00-17:00  Seminarium   MJ2612    E51-52            
 Tor  (08)aug-30  15:00-17:00  Föreläsning  DD2380    F1                
+                 17:00-..:..  REDOVISNING  DD100N    E, plan 6         
 Fre  (08)aug-31  08:00-10:00  Föreläsning  DD2380    F1                
                  10:00-12:00  Laboration   DD2380    Brun              
                  15:00-16:00  Räknestuga   DD2380    Egen              
@@ -53,7 +54,8 @@ Tor  (09)sep-06  08:00-10:00  Övning       DD2387    Q13, Q15, Q22
                  13:00-15:00  UNDERVISNING egen      Maclean [L]       Maple-undervisning för ettan
                 *15:00-17:00  Laboration   DD2387    Sport             Hjälp
                 *15:00-17:00  Laboration   DD2380    Spel              
-Fre  (09)sep-07  10:00-12:00  ?            DD2387    D3                
+Fre  (09)sep-07 ^10:00-12:00  ?            DD2387    D3                
+                ~10:00-12:00  handledning  adk       Gul, Brun         
                 *13:00-15:00  Föreläsning  DD2380    F1                
                 *13:00-17:00  Seminarium   MJ2612    V22, V34          
                 *15:00-17:00  Räknestuga   DD2380    Egen              
@@ -68,13 +70,15 @@ Tis  (09)sep-11 *13:00-15:00  Föreläsning  DD2387    B3
                 *13:00-15:00  Föreläsning  DD2395    M2                
                 *13:00-17:00  Föreläsning  MJ2612    K53               
                 *16:00-17:00  Räknestuga   DD2380    Egen              
-Ons  (09)sep-12 *13:00-17:00  Seminarium   MJ2612    M21-22          
+Ons  (09)sep-12  10:00-12:00  HANDLEDNING  adk       Spel, Sport       
+                *13:00-17:00  Seminarium   MJ2612    M21-22            
                 *15:00-17:00  Föreläsning  DD2380    F1                
 Tor  (09)sep-13  15:00-17:00  Laboration   DD2380    Spel              
 Fre  (09)sep-14  08:00-10:00  Föreläsning  MJ2612    E53               
                  10:00-12:00  Föreläsning  DD2380    Q1                
-                 13:00-15:00  Räknestuga   DD2380    Egen              
-                 15:00-17:00  Övning       DD2387    E32, E34, E36     
+                *10:00-12:00  HANDLEDNING  adk       Orange, Brun      
+                *13:00-15:00  Räknestuga   DD2380    Egen              
+                *15:00-17:00  Övning       DD2387    E32, E34, E36     
 
 
 ::Vecka 38, 2012
@@ -87,8 +91,9 @@ Tis  (09)sep-18 *08:00-10:00  Laboration   DD2395    Gul
 Ons  (09)sep-19  08:00-10:00  Laboration   DD2395    Gul               
                  13:00-15:00  Föreläsning  MJ2612    E3                
                  15:00-17:00  Övning       DD2387    Brun              Hjälp
-Tor  (09)sep-20 *14:00-16:00  Räknestuga   DD2380    Egen              
-                *15:00-17:00  Föreläsning  DD2380    F1                
+Tor  (09)sep-20 ^13:00-15:00  HANDLEDNING  adk       Spel, Sport       
+                ~14:00-16:00  Räknestuga   DD2380    Egen              
+                ^15:00-17:00  Föreläsning  DD2380    F1                
 Fre  (09)sep-21  10:00-12:00  Laboration   DD2395    Gul               
                  13:00-15:00  Laboration   DD2395    Gul               
                  15:00-17:00  Föreläsning  DD2387    D3                
@@ -98,7 +103,8 @@ Fre  (09)sep-21  10:00-12:00  Laboration   DD2395    Gul
 Mån  (09)sep-24 *13:00-15:00  Föreläsning  DD2395    M2                
                 *13:00-17:00  Seminarium   MJ2612    E34               
                 *15:00-19:00  REDOVISNING  DD2387    Orange            
-Tis  (09)sep-25  08:00-10:00  Föreläsning  DD2380    D1                
+Tis  (09)sep-25 *08:00-10:00  Föreläsning  DD2380    D1                
+                *08:00-10:00  HANDLEDNING  adk       Spel, Sport       
                  10:00-12:00  Laboration   DD2395    Gul               
                  16:00-17:00  Räknestuga   DD2380    Egen              
 Ons  (09)sep-26  08:00-10:00  Laboration   DD2395    Gul               
@@ -110,8 +116,9 @@ Tor  (09)sep-27  13:00-15:00  Övning       DD2387    M21-23
                 *15:00-17:00  Föreläsning  MJ2612    K2                
 Fre  (09)sep-28  10:00-12:00  Laboration   DD2395    Gul               
                  13:00-15:00  Laboration   DD2395    Gul               
-                 15:00-17:00  Räknestuga   DD2380    Egen              
-                 17:00-19:00  Laboration   DD2387    Orange            Hjälp
+                *15:00-19:00  HANDLEDNING  adk       Sport, Grå, Karm. 
+                *15:00-17:00  Räknestuga   DD2380    Egen              
+                *17:00-19:00  Laboration   DD2387    Orange            Hjälp
 
 
 ::Vecka 40, 2012
@@ -122,7 +129,8 @@ Tis  (10)okt-02  08:00-10:00  Laboratio    DD2395    Gul
 Ons  (10)okt-03  08:00-10:00  Laboration   DD2395    Gul               
                  10:00-12:00  Förläsning   DD2380    F1                
                  15:00-17:00  Laboration   DD2380    Spel              
-Fre  (10)okt-05  10:00-12:00  Laboration   DD2395    Gul               
+Fre  (10)okt-05  08:00-10:00  HANDLEDNING  adk       Sport, Grå, Karm. 
+                 10:00-12:00  Laboration   DD2395    Gul               
                 *13:00-15:00  Räknestuga   DD2380    Egen              
                 *13:00-15:00  Laboration   DD2395    Gul               
 
@@ -137,7 +145,8 @@ Ons  (10)okt-10  08:00-10:00  Laboration   DD2395    Gul
 Fre  (10)okt-12  10:00-12:00  Laboration   DD2395    Gul               
                 *13:00-15:00  Laboration   DD2380    Brun              
                 *13:00-15:00  Laboration   DD2395    Gul               
-                 15:00-17:00  Räknestuga   DD2380    Egen              
+                ~15:00-17:00  Räknestuga   DD2380    Egen              
+                ^15:00-17:00  HANDLEDNING  adk       Sport, Grå, Karm. 
 
 
 --- Tentaperiod ---
@@ -164,8 +173,9 @@ Ons  (10)okt-24  08:00-17:00  VFU          UMK801    VFU
 Tor  (10)okt-25  08:00-17:00  VFU          UMK801    VFU               
                  13:00-15:00  Föreläsning  DD2395    M2                
 Fre  (10)okt-26  08:00-17:00  VFU          UMK801    VFU               
-                 08:00-10:00  Laboration   DD2395    Gul               
-                 10:00-12:00  Laboration   DD2395    Gul               
+                *15:00-19:00  HANDLEDNING  adk       Grön, Brun        
+                *08:00-10:00  Laboration   DD2395    Gul               
+                *10:00-12:00  Laboration   DD2395    Gul               
 
 
 ::Vecka 44, 2012
@@ -182,10 +192,12 @@ Fre  (11)nov-02  08:00+11:00  ?            UMK801    ?                 Data-dida
                 *13:00-17:00  REDOVISNING  DD2387    Orange            
                 *13:00-17:00  Laboration   DD2395    Gul               
                 *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
+                *15:00-17:00  HANDLEDNING  adk       Sport, Grå, Karm. 
 
 
 ::Vecka 45, 2012
 Mån  (11)nov-05  08:00-17:00  VFU          UMK801    VFU               
+                 10:00-12:00  HANDLEDNING  adk       Sport, Grå, Karm. 
                  13:00-15:00  Föreläsning  DD2395    L1                
 Tis  (11)nov-06  08:00-17:00  VFU          UMK801    VFU               
                  13:00-15:00  Föreläsning  DD2395    M2                
@@ -196,6 +208,7 @@ Tor  (11)nov-08  08:00-17:00  VFU          UMK801    VFU
 Fre  (11)nov-09  08:00-17:00  VFU          UMK801    VFU               
                  08:00-12:00  Laboration   DD2395    Gul               
                  13:00-15:00  Seminarium   DD2395ef  V34-35            
+                 15:00-19:00  HANDLEDNING  adk       Sport, Grå, Karm. 
 
 
 ::Vecka 46, 2012
