@@ -30,7 +30,7 @@
 
 ::Vecka 34, 2012
 Fre  (08)aug-24  14:00-16:00  Föreläsning  MJ2612    V3                
-                 16:00-17:00  Föreläsning  MJ2612    V3                
+                 16:00-17:00  FÖRELÄSNING  MJ2612    V3                
 
 
 ::Vecka 35, 2012
@@ -48,7 +48,7 @@ Mån  (09)sep-03  13:00-15:00  Föreläsning  DD2395    M2
                  15:00-16:00  Räknestuga   DD2380    Egen              22:an
 Tis  (09)sep-04 *10:00-12:00  Föreläsning  DD2387    B2                
                 *10:00-12:00  Föreläsning  DD2395    M2                
-                 13:00-18:00  Seminarium   MJ2612    V34               
+                 13:00-18:00  SEMINARIUM   MJ2612    V34               
 Ons  (09)sep-05  15:00-17:00  Föreläsning  DD2380    F1                
 Tor  (09)sep-06 ~13:00-15:00  Övning       DD2387    V11               
                 ^13:00-15:00  UNDERVISNING egen      Maclean [L]       Maple-undervisning för ettan
@@ -56,7 +56,7 @@ Tor  (09)sep-06 ~13:00-15:00  Övning       DD2387    V11
                  15:00-17:00  Laboration   DD2380    Spel              
 Fre  (09)sep-07 ^10:00-12:00  ?            DD2387    D3                
                 ~10:00-12:00  handledning  adk       Gul, Brun         
-                *13:00-17:00  Seminarium   MJ2612    L31               
+                *13:00-17:00  SEMINARIUM   MJ2612    L31               
                 *13:00-15:00  Laboration   DD2387    Röd               Hjälp
                 *13:00-15:00  Föreläsning  DD2380    F1                
                 *15:00-17:00  Övning       DD2387    D34               
@@ -65,19 +65,19 @@ Fre  (09)sep-07 ^10:00-12:00  ?            DD2387    D3
 
 ::Vecka 37, 2012
 Mån  (09)sep-10 *10:00-12:00  Föreläsning  DD2380    F1                
-                *10:00-12:00  Seminarium   MJ2612    Q24               
+                *10:00-12:00  SEMINARIUM   MJ2612    Q24               
                 *13:00-15:00  Laboration   DD2387    Brun              Hjälp
                 *13:00-15:00  Föreläsning  DD2395    M2                
 Tis  (09)sep-11 *13:00-15:00  Föreläsning  DD2387    B3                
                 *13:00-15:00  Föreläsning  DD2395    M2                
-                *13:00-17:00  Föreläsning  MJ2612    K53               
+                *13:00-17:00  FÖRELÄSNING  MJ2612    K53               
                 *16:00-17:00  Räknestuga   DD2380    Egen              22:an
 Ons  (09)sep-12  10:00-12:00  HANDLEDNING  adk       Spel, Sport       
                 *13:00-17:00  Seminarium   MJ2612    M21-22            
                 *15:00-17:00  Föreläsning  DD2380    F1                
-Tor  (09)sep-13  10:00-12:00  Övning       DD2387    ?                 Studiebesök
+Tor  (09)sep-13  10:00-12:00  STUDIEBESÖK  DD2387    ?                 
                  15:00-17:00  Laboration   DD2380    Spel              
-Fre  (09)sep-14  08:00-10:00  Föreläsning  MJ2612    E53               
+Fre  (09)sep-14  08:00-10:00  REDOVISNING  MJ2612    E53               
                 *10:00-12:00  Föreläsning  DD2380    Q1                
                 *10:00-12:00  HANDLEDNING  adk       Orange, Brun      
                 *13:00-15:00  Räknestuga   DD2380    Egen              22:an
@@ -104,7 +104,7 @@ Fre  (09)sep-21  10:00-12:00  Laboration   DD2395    Gul
 
 ::Vecka 39, 2012
 Mån  (09)sep-24 *13:00-15:00  Föreläsning  DD2395    M2                
-                *13:00-17:00  Seminarium   MJ2612    E34               
+                *13:00-17:00  SEMINARIUM   MJ2612    E34               
                 *15:00-17:00  REDOVISNING  DD2387    Orange            X-uppgifter
 Tis  (09)sep-25 *08:00-10:00  Föreläsning  DD2380    D1                
                 *08:00-10:00  HANDLEDNING  adk       Spel, Sport       
@@ -117,7 +117,7 @@ Ons  (09)sep-26  08:00-10:00  Laboration   DD2395    Gul
                  15:00-17:00  Föreläsning  DD2387    B3                
 Tor  (09)sep-27 *15:00-17:00  Övning       DD2387    E31               
                 *15:00-17:00  Laboration   DD2380    Spel              
-                *15:00-17:00  Föreläsning  MJ2612    K2                
+                *15:00-17:00  FÖRELÄSNING  MJ2612    K2                
 Fre  (09)sep-28  10:00-12:00  Laboration   DD2395    Gul               
                  13:00-15:00  Laboration   DD2395    Gul               
                 *15:00-17:00  HANDLEDNING  adk       Sport, Grå, Karm. 
@@ -134,6 +134,7 @@ Tis  (10)okt-02  08:00-10:00  Laboratio    DD2395    Gul
 Ons  (10)okt-03  08:00-10:00  Laboration   DD2395    Gul               
                  10:00-12:00  Förläsning   DD2380    F1                
                  15:00-17:00  Laboration   DD2380    Spel              
+Tor  (10)okt-04  13:00-17:??  SEMINARIUM   MJ2612    L42               Saknas på centrala schemat
 Fre  (10)okt-05  08:00-10:00  HANDLEDNING  adk       Sport, Grå, Karm. 
                  10:00-12:00  Laboration   DD2395    Gul               
                 *13:00-15:00  Räknestuga   DD2380    Egen              22:an
