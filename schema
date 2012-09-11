@@ -67,16 +67,16 @@ Fre  (09)sep-07 ^10:00-12:00  Föreläsning  DD2387    D3
 
 ::Vecka 37, 2012
 Mån  (09)sep-10 >08:00-10:00  Föreläsning  DD2395    E1                
-                *10:00-12:00  Föreläsning  DD2380    F1                
-                *10:00-12:00  SEMINARIUM   MJ2612    Q24               
+                ^10:00-12:00  Föreläsning  DD2380    F1                
+                ~10:00-12:00  SEMINARIUM   MJ2612    Q24               
                  13:00-15:00  Laboration   DD2387    Brun              Hjälp
 		 17:00-..:..  egen         egen      egen              
-Tis  (09)sep-11 *13:00-15:00  Föreläsning  DD2387    B3                
-                *13:00-17:00  FÖRELÄSNING  MJ2612    K53               
-                *16:00-17:00  Räknestuga   DD2380    Egen              22:an
+Tis  (09)sep-11  13:00-15:00  Föreläsning  DD2387    B3                
+                ^15:00-17:00  FÖRELÄSNING  MJ2612    K53               
+                ~16:00-17:00  Räknestuga   DD2380    Egen              22:an
 Ons  (09)sep-12  10:00-12:00  HANDLEDNING  adk       Spel, Sport       
-                *13:00-17:00  Seminarium   MJ2612    M21-22            
-                *15:00-17:00  Föreläsning  DD2380    F1                
+                ~13:00-17:00  Seminarium   MJ2612    M21-22            
+                ^15:00-17:00  Föreläsning  DD2380    F1                
 Tor  (09)sep-13  10:00-12:00  STUDIEBESÖK  DD2387    ?                 
                  15:00-17:00  Laboration   DD2380    Spel              
 Fre  (09)sep-14  08:00-10:00  REDOVISNING  MJ2612    E53               
