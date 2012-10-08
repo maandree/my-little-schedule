@@ -117,7 +117,7 @@ Tis  (09)sep-25 ^08:00-10:00  Föreläsning  DD2380    D1
 Ons  (09)sep-26  08:00-10:00  Laboration   DD2395    Gul               
                  13:00-15:00  Föreläsning  DD2380    F2                
                 -15:00-17:00  Föreläsning  DD2387    B3                
-Tor  (09)sep-27  08:00-10:00  Förekäsning  DD2387    D2                
+Tor  (09)sep-27  08:00-10:00  Föreläsning  DD2387    D2                
                 *15:00-17:00  Övning       DD2387    E31               
                 *15:00-17:00  Laboration   DD2380    Spel              
                 *15:00-17:00  FÖRELÄSNING  MJ2612    K2                
@@ -153,7 +153,7 @@ Ons  (10)okt-10  08:00-10:00  Laboration   DD2395    Gul
                 *13:00-15:00  Föreläsning  DD2395    F2                
                 *13:00-17:00  Seminarium   MJ2612    K53               
 Tor  (10)okt-11  15:00-17:00  Föreläsning  DD2395    E1                
-Fre  (10)okt-12  10:00-12:00  Laboration   DD2395    Gul               
+Fre  (10)okt-12 !10:00-12:00  Laboration   DD2395    Gul               
                 *13:00-15:00  Laboration   DD2380    Brun              
                 *13:00-15:00  Laboration   DD2395    Gul               
                 ~15:00-17:00  Räknestuga   DD2380    Egen              22:an
