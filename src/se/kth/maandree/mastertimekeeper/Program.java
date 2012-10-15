@@ -274,18 +274,18 @@ public class Program
 	}
 	else if (line.length() > 53)
 	{
+	    if (correctYear && line.substring(6, 8).equals((month < 9 ? "0" : "") + (month + 1)) && line.substring(13, 15).equals((day < 10 ? "0" : "") + day))
+	    {
+		correctDay = true;
+		out.append("\033[1;32m");
+		out.append(line.substring(0, 16));
+		out.append("\033[21;39m");
+	    }
+	    else
+		out.append(line.substring(0, 16));
 	    String colour;
 	    if ((colour = colourmap.get(line.substring(16, 17))) != null)
 	    {
-		if (correctYear && line.substring(6, 2).equals((month < 10 ? "0" : "") + month) && line.substring(13, 2).equals((day < 10 ? "0" : "") + day))
-		{
-		    correctDay = true;
-		    out.append("\033[1;32m");
-		    out.append(line.substring(0, 16));
-		    out.append("\033[21,39m");
-		}
-		else
-		    out.append(line.substring(0, 16));
 		out.append("\033[" + colour + "m");
 		out.append(line.substring(16, 17));
 		out.append("\033[21;39;49;0m");
@@ -301,13 +301,13 @@ public class Program
 	    }
 	    else if ((colour = colourmap.get(line.substring(29, 30))) != null)
 	    {
-		out.append(line.substring(0, 29));
+		out.append(line.substring(16, 29));
 		out.append("\033[" + colour + "m");
 		out.append(line.substring(29, 30));
 		out.append("\033[21;39;49;0m");
 	    }
 	    else
-		out.append(line.substring(0, 30));
+		out.append(line.substring(16, 30));
 	    
 	    if (line.substring(30, 41).toLowerCase().equals(line.substring(30, 41).toUpperCase()))
 		out.append("\033[32m");
