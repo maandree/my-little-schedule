@@ -92,7 +92,7 @@ public class Program
 	    
 	    StringBuilder buf = new StringBuilder("\033[H\033[2J");
 	    
-	    int width = Terminal.getTerminalWidth();
+	    int width  = Terminal.getTerminalWidth();
 	    int height = Terminal.getTerminalHeight();
 	    int bottom = 2;
 	    int top = 0;
@@ -107,57 +107,78 @@ public class Program
 	    for (int i = 0; i < top; i++)
 		buf.append(lines.get(i));
 	    for (int i = cur, lim = cur + height - bottom - top; i < lim; i++)
-		buf.append(i < lines.size() ? lines.get(i) : "\n");
+		buf.append(i < lines.size() ? lines.get(i) : "\033[2m~\033[22m\n");
 	    String procent = (lines.size() < height - bottom) ? "ALL" : "TOP";
 	    buf.append("\033[44;33;1m\033[2K  " + procent + "  \033[49;39;21m\n");
 	    System.out.print(buf.toString());
-	    buf = new StringBuilder("\033[H\033[2J");
+	    buf = new StringBuilder();
+	    
+	    int lastWidth = width, lastHeight = height;
 	    
 	    for (int d = 0; d >= 0; d = System.in.read())
 	    {
 		if (d == 'q')
 		    break;
 		
+		width  = Terminal.getTerminalWidth();
+		height = Terminal.getTerminalHeight();
+	        dispheight = height - bottom - top;
+		boolean resized = (width != lastWidth) || (height != lastHeight);
+		
+		int last = cur;
 		switch (d)
 		{
 		    case 53: //page up
 			cur -= dispheight;
-			cur++;
-			//$FALL-THROUGH$
+			break;
 		    case 65: //up
 			cur--;
-			if (cur < top)
-			{
-			    cur = top;
-			    break;
-			}
 			break;
 			
 		    case 54: //page down
 		    case 32: //space
 			cur += dispheight;
-			cur--;
-			//$FALL-THROUGH$
+			break;
 		    case 66: //down
 		    case 10: //enter
 			cur++;
-			if (cur > lines.size() - dispheight + 1)
-			{
-			    cur = lines.size() - dispheight + 1;
-			    if (cur < top)
-				cur = top;
-			    break;
-			}
 			break;
 		}
+		if (cur > lines.size() - dispheight / 4)
+		    cur = lines.size() - dispheight / 4;
+		if (cur < top)
+		    cur = top;
 		
-		width = Terminal.getTerminalWidth();
-		height = Terminal.getTerminalHeight();
-	        dispheight = height - bottom - top;
-		for (int i = 0; i < top; i++)
-		    buf.append(lines.get(i));
-		for (int i = cur, lim = cur + dispheight; i < lim; i++)
-		    buf.append(i < lines.size() ? lines.get(i) : "\n");
+		int diff = cur - last;
+		if ((diff == 0) && (resized == false))
+		    continue;
+		
+		if ((diff == 1) && (resized == false))
+		{
+		    buf.append("\033[" + (height - 1) + ";1H\033[2K\033[1S\033[1;1H");
+		    for (int i = 0; i < top; i++)
+			buf.append("\033[2K" + lines.get(i));
+		    buf.append("\033[" + (height - 2) + ";1H");
+		    int i = last + dispheight;
+		    buf.append("\033[2K" + (i < lines.size() ? lines.get(i) : "\033[2m~\033[22m\n"));
+		}
+		else if ((diff == -1) && (resized == false))
+		{
+		    buf.append("\033[" + (height - 1) + ";1H\033[2K\033[1T\033[1;1H");
+		    for (int i = 0; i < top; i++)
+			buf.append("\033[2K" + lines.get(i));
+		    buf.append("\033[2K" + (cur < lines.size() ? lines.get(cur) : "\033[2m~\033[22m\n"));
+		    buf.append("\033[" + (height - 1) + ";1H");
+		}
+		else
+		{
+		    buf.append("\033[1;1H\033[2J");
+		    for (int i = 0; i < top; i++)
+			buf.append(lines.get(i));
+		    for (int i = cur, lim = cur + dispheight; i < lim; i++)
+			buf.append(i < lines.size() ? lines.get(i) : "\033[2m~\033[22m\n");
+		}
+		
 		procent = String.valueOf((int)((cur - top) * 100. / (lines.size() - top - dispheight + 1) + 0.5));
 		if (procent.length() == 1)
 		    procent = '0' + procent;
@@ -167,8 +188,12 @@ public class Program
 		else
 		    procent += '%';
 		buf.append("\033[44;33;1m\033[2K  " + procent + "  \033[49;39;21m\n");
+		
 		System.out.print(buf.toString());
-		buf = new StringBuilder("\033[H\033[2J");
+		buf = new StringBuilder();
+		
+		lastWidth = width;
+		lastHeight = height;
 	    }
 	}
 	catch (final Throwable err)
