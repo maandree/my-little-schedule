@@ -59,16 +59,29 @@ public class Program
 	colourmap.put("#", "32");
 	colourmap.put(">", "34;1");
 	
+	final Calendar now = Calendar.getInstance();
+	final int day   = now.get(Calendar.DAY_OF_MONTH);
+	final int month = now.get(Calendar.MONTH);
+	final int year  = now.get(Calendar.YEAR);
+	final int week  = now.get(Calendar.WEEK_OF_YEAR);
+	
 	try
 	{
 	    final ArrayList<String> lines = new ArrayList<String>();
 	    final ArrayList<String> raws = new ArrayList<String>();
 	    final Scanner fileScanner = new Scanner(new BufferedInputStream(new FileInputStream(new File(args[0]))));
+	    int cur = 0, lineno = 0;
 	    while (fileScanner.hasNext())
 	    {
 		final String line;
-		lines.add(manipulateLine(line = fileScanner.nextLine()));
+		lines.add(manipulateLine(line = fileScanner.nextLine(), day, month, year, week));
 		raws.add(line);
+		if (correctDay)
+		{
+		    cur = lineno;
+		    correctDay = false;
+		}
+		lineno++;
 	    }
 	    
 	    Terminal.initialiseTerminal();
@@ -87,8 +100,9 @@ public class Program
 		top++;
 	    if (top >= raws.size())
 		top = 0;
-	    int cur = top;
 	    int dispheight = height - bottom - top;
+	    if (cur < top)
+		cur = top;
 	    
 	    for (int i = 0; i < top; i++)
 		buf.append(lines.get(i));
@@ -184,15 +198,29 @@ public class Program
      */
     private static final HashMap<String, String> colourmap = new HashMap<String, String>();
     
+    /**
+     * Used by {@link #manipulateLine(String)}
+     */
+    private static boolean correctYear = false;
+    
+    /**
+     * Used by both methods
+     */
+    private static boolean correctDay = false;
+    
     
     
     /**
      * Adds colours to a line
      *
-     * @param   line  The line
-     * @return        The line colourised
+     * @param   line   The line
+     * @param   day    The current day of the month
+     * @param   month  The current month of the year
+     * @param   year   The current year
+     * @param   week   The current week of the year
+     * @return         The line colourised
      */
-    public static String manipulateLine(final String line)
+    public static String manipulateLine(final String line, final int day, final int month, final int year, final int week)
     {
 	final StringBuilder out = new StringBuilder();
 	
@@ -228,7 +256,11 @@ public class Program
 	}
 	else if (line.startsWith("::"))
 	{
-	    out.append("\033[34;1m");
+	    correctDay = correctYear = line.startsWith("::Vecka " + week + ", " + year);
+	    if (correctYear)
+		out.append("\033[32;1m");
+	    else
+		out.append("\033[34;1m");
 	    out.append(line.substring(0, 2));
 	    out.append("\033[21m");
 	    out.append(line.substring(2));
@@ -245,7 +277,15 @@ public class Program
 	    String colour;
 	    if ((colour = colourmap.get(line.substring(16, 17))) != null)
 	    {
-		out.append(line.substring(0, 16));
+		if (correctYear && line.substring(6, 2).equals((month < 10 ? "0" : "") + month) && line.substring(13, 2).equals((day < 10 ? "0" : "") + day))
+		{
+		    correctDay = true;
+		    out.append("\033[1;32m");
+		    out.append(line.substring(0, 16));
+		    out.append("\033[21,39m");
+		}
+		else
+		    out.append(line.substring(0, 16));
 		out.append("\033[" + colour + "m");
 		out.append(line.substring(16, 17));
 		out.append("\033[21;39;49;0m");
