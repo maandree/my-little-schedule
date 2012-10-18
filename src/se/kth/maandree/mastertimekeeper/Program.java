@@ -108,7 +108,15 @@ public class Program
 		buf.append(lines.get(i));
 	    for (int i = cur, lim = cur + height - bottom - top; i < lim; i++)
 		buf.append(i < lines.size() ? lines.get(i) : "\033[2m~\033[22m\n");
-	    String procent = (lines.size() < height - bottom) ? "ALL" : "TOP";
+	    
+	    String procent = String.valueOf((int)((cur - top) * 100. / (lines.size() - top - dispheight + 1) + 0.5));
+	    if (procent.length() == 1)
+		procent = '0' + procent;
+	    if (lines.size() < height - bottom)               procent = "ALL";
+	    else if (cur == top)                              procent = "TOP";
+	    else if (cur == lines.size() - dispheight + 1)    procent = "BOT";
+	    else
+		procent += '%';
 	    buf.append("\033[44;33;1m\033[2K  " + procent + "  \033[49;39;21m\n");
 	    System.out.print(buf.toString());
 	    buf = new StringBuilder();
