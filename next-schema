@@ -1,0 +1,258 @@
+?,? hp  DD2448  ?  Kryptografins grunder
+?,? hp  DN2264  ?  Parallella beräkningar för storskaliga problem, del 1
+?,? hp  DD1396  ?  Parallellprogrmmering i introduktion till datalogi
+?,? hp  DD2458  ?  Problemlösning och programmering under press
+?,? hp  DH1603  ?  Kommunikation och media
+?.? hp  SF2719  ?  Matematikens historia
+?.? hp  SK1103  ?  Klassisk fysik för CL
+
+
+--- Legend ---
+
+
+! framför tid: har lovat att gå på
+* framför tid: vet inte om jag ska gå på, på grund av krock
+~ framför tid: ska inte gå på, på grund av krock
+^ framför tid: ska gå på, men inte på de krockande
+- framför tid: kan inte gå på
++ framför tid: har lovat att gå på annans
+/ framför tid: går inte på
+? framför tid: föreslaget
+& framför tid: bara jag
+# framför tid: inte jag       (sätt typ till #)
+> framför tid: missad
+
+- framför typ: inställd
+
+# som första tecknet:  kommentar
+
+
+--- Period 1 ---
+
+
+::Vecka 02, 2013
+Fre  (01)jan-11  15:00-17:00  Föreläsning  SK1103    FR4               
+
+
+::Vecka 03, 2013
+Mån  (01)jan-14  10:00-10:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DH1603    E31               
+Tis  (01)jan-15  13:00-15:00  Föreläsning  DN2264    D41               
+                 15:00-17:00  Föreläsning  SK1103    FB52              
+Ons  (01)jan-16  10:00-12:00  Föreläsning  DH1603    D34               
+                 13:00-15:00  Övning       DH1603a   L31               
+Tor  (01)jan-17 *10:00-12:00  Föreläsning  DD2264    D42               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                 15:00-17:00  Övning       DH1603b   L31               
+Fre  (01)jan-18  10:00-12:00  Föreläsning  SK1103    FB52              
+                 13:00-15:00  Föreläsning  DD2448    L52               
+                 15:00-17:00  Övning       DH1603c   L31               
+
+
+::Vecka 04, 2013
+Mån  (01)jan-21  10:00-12:00  Föreläsning  SK1103    FB52              
+                 15:00-17:00  Övning       DH1603a   L31n              
+Tis  (01)jan-22 *13:00-15:00  Föreläsning  DN2264    Q21               
+                *13:00-15:00  Övning       DH1603c   L21               
+                *13:00-15:00  Övning       SK1103    FB53-54, FD41     
+Tor  (01)jan-24 *10:00-12:00  Föreläsning  DD2264    V21               
+                *10:00-12:00  Övning       DH1603b   D42               
+                 13:00-15:00  Övning       SK1103    FB42              
+                 15:00-17:00  Föreläsning  DH1603    E35               
+Fre  (01)jan-25  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DD2448    Q36               
+
+
+::Vecka 05, 2013
+Mån  (01)jan-28 *10:00-12:00  Övning       DH1603a   L31               
+                *10:00-12:00  Föreläsning  DN2264    V11               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+Tis  (01)jan-29 *13:00-15:00  Övning       DH1603c   L31               
+                *13:00-15:00  Laboration   DN2264    Orange            
+                *13:00-15:00  Övning       SK1103    FB53-55, FD41     
+Ons  (01)jan-30  13:00-15:00  Övning       DH1603b   L41               
+Tor  (01)jan-31  10:00-12:00  Övning       DH1603a   L31               
+                 13:00-15:00  Föreläsning  DN2264    D41               
+                 15:00-17:00  Övning       DH1603b   L31               
+Fre  (02)feb-01  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DD2448    Q33               
+                 15:00-15:00  Övning       DH1603c   L21               
+
+
+::Vecka 06, 2013
+Mån  (02)feb-04  08:00-10:00  Föreläsning  DH1603    D34               
+                 10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Övning       DH1603a   D42               
+Tis  (02)feb-05  08:00-10:00  Övning       DH1603b   D42               
+                 13:00-15:00  Övning       SK1103    FB53-55, FD41     
+                 15:00-17:00  Övning       DH1603c   L41               
+Ons  (02)feb-06  10:00-12:00  Övning       DH1603a   L31               
+                 15:00-17:00  Övning       DH1603b   D42               
+Tor  (02)feb-07  15:00-17:00  Övning       DH1603c   L41               
+Fre  (02)feb-08  13:00-15:00  Föreläsning  DD2448    L52               
+
+
+::Vecka 07, 2013
+Mån  (02)feb-11  10:00-12:00  Föreläsning  SK1103    FR4               
+Tis  (02)feb-12  13:00-15:00  Föreläsning  DN2264    D42               
+Ons  (02)feb-13  10:00-12:00  Övning       DH1603a   L31               
+                 13:00-15:00  Övning       DH1603b   D42               
+Tor  (02)feb-14  08:00-10:00  Övning       DH1603c   L44               
+                *10:00-12:00  Föreläsning  DN2264    D42               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DH1603    E51               
+Fre  (02)feb-15  10:00-12:00  Föreläsning  DN2264    D41               
+                 13:00-15:00  Föreläsning  DD2448    L52               
+
+
+::Vecka 08, 2013
+Mån  (02)feb-18 *10:00-12:00  Övning       DH1603a   L31               
+                *10:00-12:00  Övning       SK1103    FB53-55, FD41     
+                 15:00-17:00  Övning       DH1603b   L31               
+Tis  (02)feb-19  10:00-12:00  Övning       DH1603c   D34               
+                *13:00-15:00  Föreläsning  DN2264    Q21               
+                *13:00-15:00  Föreläsning  SK1103    FR4               
+Ons  (02)feb-20  08:00-10:00  Övning       DH1603a   L31               
+Tor  (02)feb-21 *10:00-12:00  Föreläsning  DN2264    V21               
+                *10:00-12:00  Övning       DH1603b   L31               
+                 13:00-15:00  Övning       DH1603c   L22               
+Fre  (02)feb-22  13:00-15:00  Föreläsning  DD2448    L52               
+
+
+::Vecka 09, 2013
+Mån  (02)feb-25  08:00-10:00  Föreläsning  DH1603    D32               
+                 10:00-12:00  Föreläsning  SK1103    FR4               
+Tis  (02)feb-26 *13:00-17:00  Laboration   SK1103    ?                 
+                *13:00-15:00  Föreläsning  DN2264    D41               
+Ons  (02)feb-27  08:00-10:00  Föreläsning  DD2448    L52               
+                 10:00-12:00  Föreläsning  DH1603    E35               
+Fre  (03)mar-01  13:00-15:00  Övning       SK1103    FB53-55, FD41     
+
+
+::Vecka 10, 2013
+Mån  (03)mar-04  10:00-12:00  Övning       DH1603a   L31               
+                 15:00-17:00  Övning       DH1603b   L31               
+Tis  (03)mar-05  08:00-12:00  Övning       DH1603c   D33               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                '10:00-17:00  Övning       DH1603a   L31               
+Ons  (03)mar-06  08:00-12:00  Laboration   SK1103    ?                 
+                 15:00-17:00  Övning       DH1603b   L31               
+Tor  (03)mar-07 *09:00-12:00  Räknestuga   SK1103    FB-53-55          
+                *10:00-12:00  Övning       DH1603c   D33               
+Fre  (03)mar-08  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Övning       SK1103    FB42/52,FD41,FE21 
+
+
+::Vecka 11, 2013
+Mån  (03)mar-11  09:00-12:00  Räknestuga   SK1103    FB53-55           
+                 13:00-15:00  Föreläsning  SK1103    FR4               
+
+
+::Vecka 12, 2013
+Mån  (03)mar-18  08:00-12:00  Laboration   SK1103    ?                 
+                 10:00-12:00  Föreläsning  DH1603    D34               
+                 13:00-15:00  Lektion      SF2719    E32               
+                *15:00-17:00  Övning       DH1603a   L31               
+                *15:00-17:00  Föreläsning  SK1103    FR4               
+Tis  (03)mar-19  15:00-17:00  Föreläsning  DD1396    D1                
+Ons  (03)mar-20  10:00-12:00  Lektion      SF2719    E32               
+                *13:00-17:00  Laboration   SK1103    ?                 
+                *15:00-17:00  Övning       DH1603b   L31               
+Tor  (03)mar-21  09:00-12:00  Räknestuga   SK1103    FB53-55           
+                 15:00-17:00  Övning       DH1603c   E31               
+Fre  (03)mar-22  08:00-10:00  Övning       DD1396    B21-24,D32-33,L41-44
+                 10:00-12:00  Övning       SK1103    FB53-55,FD41      
+                *13:00-15:00  Föreläsning  DD2448    Q33               
+                *13:00-15:00  Lektion      SF2719    E52               
+
+
+::Vecka 13, 2013
+Mån  (03)mar-25  08:00-10:00  Föreläsning  DH1603    E52               
+                 10:00-12:00  Övning       DH1603a   D33               
+                 10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Övning       DH1603b   L31               
+                 15:00-17:00  Övning       DH1603c   D33               
+Tis  (03)mar-26  15:00-17:00  Föreläsning  DD1396    D1                
+                 17:00-19:00  Övning       DH1603c   D33               
+Ons  (03)mar-27  08:00-10:00  Föreläsning  DD2448    V34               
+                 10:00-12:00  Lektion      SF2719    D41               
+                 15:00-17:00  Övning       DD1396    B21-24,D32-33,L41-44
+                 17:00-19:00  Övning       DH1603b   L31               
+Tor  (03)mar-28  08:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Lektion      SF2719    D41               
+                 17:00-19:00  Övning       DH1603a   D33               
+
+
+--- Tentaperiod ---
+
+
+--- Period 2 ---
+
+
+::Vecka 15, 2013
+Mån  (11)nov-26  08:00-17:00  VFU          UMK801    VFU               
+Tis  (11)nov-27  08:00-17:00  VFU          UMK801    VFU               
+Ons  (11)nov-28  08:00-17:00  VFU          UMK801    VFU               
+                 15:00-17:00  Laboration   DD2387    Orange            
+Tor  (11)nov-29  08:00-17:00  VFU          UMK801    VFU               
+Fre  (11)nov-30  08:00-17:00  VFU          UMK801    VFU               
+                 10:00-12:00  Seminarium   DD2395gh  D33, D35          
+
+
+::Vecka 16, 2013
+Mån  (12)dec-03  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-04  08:00-17:00  VFU          UMK801    VFU               
+Ons  (12)dec-05  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-06  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-07  08:00-17:00  VFU          UMK801    VFU               
+
+
+::Vecka 17, 2013
+Mån  (12)dec-10  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-11  08:00-17:00  VFU          UMK801    VFU               
+                 14:00-16:00  REDOVISNING  DD2387    Orange            
+Ons  (12)dec-12  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-13  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-14 ~08:00-17:00  VFU          UMK801    VFU               
+                ^14:00+19:00  TENTAMEN     DD2395    E33-36, E51-53    
+
+
+::Vecka 18, 2013
+Mån  (12)dec-10  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-11  08:00-17:00  VFU          UMK801    VFU               
+                 14:00-16:00  REDOVISNING  DD2387    Orange            
+Ons  (12)dec-12  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-13  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-14 ~08:00-17:00  VFU          UMK801    VFU               
+                ^14:00+19:00  TENTAMEN     DD2395    E33-36, E51-53    
+
+
+::Vecka 19, 2013
+Mån  (12)dec-10  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-11  08:00-17:00  VFU          UMK801    VFU               
+                 14:00-16:00  REDOVISNING  DD2387    Orange            
+Ons  (12)dec-12  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-13  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-14 ~08:00-17:00  VFU          UMK801    VFU               
+                ^14:00+19:00  TENTAMEN     DD2395    E33-36, E51-53    
+
+
+::Vecka 20, 2013
+Mån  (12)dec-10  08:00-17:00  VFU          UMK801    VFU               
+Tis  (12)dec-11  08:00-17:00  VFU          UMK801    VFU               
+                 14:00-16:00  REDOVISNING  DD2387    Orange            
+Ons  (12)dec-12  08:00-17:00  VFU          UMK801    VFU               
+Tor  (12)dec-13  08:00-17:00  VFU          UMK801    VFU               
+Fre  (12)dec-14 ~08:00-17:00  VFU          UMK801    VFU               
+                ^14:00+19:00  TENTAMEN     DD2395    E33-36, E51-53    
+
+
+--- Tentaperiod ---
+
+
+::Vecka 21, 2013
+Mon  (12)dec-17  09:00-12:00  HANDLEDNING  adk       ?                 
+
+
+::Vecka 22, 2013
+Mon  (12)dec-17  09:00-12:00  HANDLEDNING  adk       ?                 
