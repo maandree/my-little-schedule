@@ -5,6 +5,7 @@
 7,5 hp  DH1603  C  Kommunikation och media
 6.0 hp  SF2719  D  Matematikens historia
 9.0 hp  SK1103  ?  Klassisk fysik för CL
+4.5 hp  UDK200  ?  IKT/Datadidaktik moment 2
 
 
 --- Legend ---
@@ -94,9 +95,11 @@ Fre  (02)feb-08  13:00-15:00  Föreläsning  DD2448    L52
 
 ::Vecka 07, 2013
 Mån  (02)feb-11  10:00-12:00  Föreläsning  SK1103    FR4               
-Tis  (02)feb-12  13:00-15:00  Föreläsning  DN2264    D42               
+Tis  (02)feb-12 *12:00-14:00  Seminarium   UDK200    ?                 
+                *13:00-15:00  Föreläsning  DN2264    D42               
 Ons  (02)feb-13  10:00-12:00  Övning       DH1603a   L31               
                  13:00-15:00  Övning       DH1603b   D42               
+                 15:00-17:00  Seminarium   UDK200    D32               
 Tor  (02)feb-14  08:00-10:00  Övning       DH1603c   L44               
                 *10:00-12:00  Föreläsning  DN2264    D42               
                 *10:00-12:00  Föreläsning  SK1103    FR4               
@@ -113,6 +116,7 @@ Tis  (02)feb-19  10:00-12:00  Övning       DH1603c   D34
                 *13:00-15:00  Föreläsning  DN2264    Q21               
                 *13:00-15:00  Föreläsning  SK1103    FR4               
 Ons  (02)feb-20  08:00-10:00  Övning       DH1603a   L31               
+                 13:00-16:00  ?            UDK200    ?                 
 Tor  (02)feb-21 *10:00-12:00  Föreläsning  DN2264    V21               
                 *10:00-12:00  Övning       DH1603b   L31               
                  13:00-15:00  Övning       DH1603c   L22               
@@ -134,18 +138,25 @@ Mån  (03)mar-04  10:00-12:00  Övning       DH1603a   L31
                  15:00-17:00  Övning       DH1603b   L31               
 Tis  (03)mar-05  08:00-12:00  Övning       DH1603c   D33               
                 *10:00-12:00  Föreläsning  SK1103    FR4               
-                '10:00-17:00  Övning       DH1603a   L31               
+                *10:00-17:00  Övning       DH1603a   L31               
 Ons  (03)mar-06  08:00-12:00  Laboration   SK1103    ?                 
                  15:00-17:00  Övning       DH1603b   L31               
 Tor  (03)mar-07 *09:00-12:00  Räknestuga   SK1103    FB-53-55          
                 *10:00-12:00  Övning       DH1603c   D33               
-Fre  (03)mar-08  10:00-12:00  Föreläsning  SK1103    FR4               
-                 13:00-15:00  Övning       SK1103    FB42/52,FD41,FE21 
+Fre  (03)mar-08 *09:00-12:00  ?            UDK200    ?                 
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                *13:00-15:00  ?            UDK200    ?                 
+                *13:00-15:00  Övning       SK1103    FB42/52,FD41,FE21 
 
 
 ::Vecka 11, 2013
-Mån  (03)mar-11  09:00-12:00  Räknestuga   SK1103    FB53-55           
+Mån  (03)mar-11  08:00-17:00  VFU          UDK200    VFU               
+                 09:00-12:00  Räknestuga   SK1103    FB53-55           
                  13:00-15:00  Föreläsning  SK1103    FR4               
+Tis  (03)mar-12  08:00-17:00  VFU          UDK200    VFU               
+Ons  (03)mar-13  08:00-17:00  VFU          UDK200    VFU               
+Tor  (03)mar-14  08:00-17:00  VFU          UDK200    VFU               
+Fre  (03)mar-15  08:00-17:00  VFU          UDK200    VFU               
 
 
 ::Vecka 12, 2013
@@ -194,7 +205,8 @@ Mån  (04)apr-08  10:00-12:00  Övning       DH1603a   D33
                 *13:00-15:00  Föreläsning  DD1396    E1                
                 *13:00-15:00  Övning       DH1603b   L31               
                  15:00-17:00  Övning       DH1603c   D33               
-Ons  (04)apr-10  08:00-10:00  Föreläsning  DD2448    L52               
+Ons  (04)apr-10  08:00-17:00  Projekt      UDK200    ?                 
+                 08:00-10:00  Föreläsning  DD2448    L52               
                  10:00-12:00  Lektion      SF2719    D41               
                  13:00-15:00  Övning       SK1103    FB53-55,FD41      
                  15:00-17:00  Föreläsning  DH1604    E31               
@@ -208,8 +220,12 @@ Fre  (04)apr-12  08:00-10:00  Övning       DD1396    B21-24,D32,D42,L41-44
 ::Vecka 16, 2013
 Mån  (04)apr-15  10:00-12:00  Föreläsning  SK1103    FR4               
                  15:00-17:00  Lektion      SF2719    E32               
-Ons  (04)apr-17  10:00-12:00  Föreläsning  DH1603    D34               
-                 15:00-17:00  Övning       DH1603a   D33               
+Tis  (04)apr-16  08:00-10:00  Projekt      UDK200    ?                 
+                 15:00-17:00  Projekt      UDK200    ?                 
+Ons  (04)apr-17  08:00-10:00  Projekt      UDK200    ?                 
+                 10:00-12:00  Föreläsning  DH1603    D34               
+                *15:00-17:00  Övning       DH1603a   D33               
+                *15:00-17:00  Projekt      UDK200    ?                 
 Tor  (04)apr-18  08:00-10:00  Lektion      SF2719    D41               
                  10:00-12:00  Övning       SK1103    FB53-55,FD41      
                  10:00-12:00  Övning       DH1603b   D42               
@@ -222,8 +238,10 @@ Mån  (04)apr-22  10:00-12:00  Övning       DH1603a   D33
                  13:00-15:00  Övning       DH1603b   D33               
                  15:00-17:00  Övning       DH1603c   D33               
 Tis  (04)apr-23  13:00-15:00  Föreläsning  SK1103    FR4               
-Ons  (04)apr-24  08:00-10:00  Föreläsning  SK1103    FR4               
-                 10:00-12:00  Lektion      SF2719    D41               
+Ons  (04)apr-24 *08:00-10:00  Föreläsning  SK1103    FR4               
+                *09:00-11:00  Projekt      UDK200    ?                 
+                *10:00-12:00  Lektion      SF2719    D41               
+                 12:00-14:00  Projekt      UDK200    ?                 
                  15:00-17:00  Övning       DH1603a   D33               
                  17:00-19:00  Övning       DH1603b   D33               
 Tor  (04)apr-25  15:00-17:00  Övning       DH1603c   D33               
