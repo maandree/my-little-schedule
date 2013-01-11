@@ -1,8 +1,10 @@
-6,0 hp   MJ2612  C  Lärande och hållbar utveckling
-6,0 hp   DD2380  C  Artificiell intelligens
-6,0 hp   DD2387  C  Programsystemkonstruktion med C++
-6,0 hp   DD2395  C  Datasäkerhet
-15,0 hp  UMK801  C  Verka i skolan - ämnesdidaktik
+7,5 hp  DD2448  D  Kryptografins grunder
+6,0 hp  DN2264  C  Parallella beräkningar för storskaliga problem, del 1
+3,0 hp  DD1396  ?  Parallellprogrmmering i introduktion till datalogi
+9,0 hp  DD2458  C  Problemlösning och programmering under press
+7,5 hp  DH1603  C  Kommunikation och media
+6.0 hp  SF2719  D  Matematikens historia
+9.0 hp  SK1103  ?  Klassisk fysik för CL
 
 
 --- Legend ---
@@ -25,253 +27,238 @@
 # som första tecknet:  kommentar
 
 
---- Period 1 ---
+--- Period 3 ---
 
 
-::Vecka 34, 2012
-Fre  (08)aug-24  14:00-16:00  Föreläsning  MJ2612    V3                
-                 16:00-17:00  FÖRELÄSNING  MJ2612    V3                
+::Vecka 02, 2013
+Fre  (01)jan-11  15:00-17:00  Föreläsning  SK1103    FR4               
 
 
-::Vecka 35, 2012
-Tis  (08)aug-28  13:00-15:00  Föreläsning  DD2387    B3                
-                 15:00-17:00 -Seminarium   MJ2612    E51-52            
-Tor  (08)aug-30  15:00-17:00  Föreläsning  DD2380    F1                
-                 17:00-..:..  REDOVISNING  DD100N    E, plan 6         
-Fre  (08)aug-31  08:00-10:00  Föreläsning  DD2380    F1                
-                 10:00-12:00  Laboration   DD2380    Brun              
-                 15:00-16:00  Räknestuga   DD2380    Egen              22:an
+::Vecka 03, 2013
+Mån  (01)jan-14  10:00-10:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DH1603    E31               
+Tis  (01)jan-15  13:00-15:00  Föreläsning  DN2264    D41               
+                 15:00-17:00  Föreläsning  SK1103    FB52              
+Ons  (01)jan-16  10:00-12:00  Föreläsning  DH1603    D34               
+                 13:00-15:00  Övning       DH1603a   L31               
+Tor  (01)jan-17 *10:00-12:00  Föreläsning  DD2264    D42               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                 15:00-17:00  Övning       DH1603b   L31               
+Fre  (01)jan-18  10:00-12:00  Föreläsning  SK1103    FB52              
+                 13:00-15:00  Föreläsning  DD2448    L52               
+                 15:00-17:00  Övning       DH1603c   L31               
 
 
-::Vecka 36, 2012
-Mån  (09)sep-03  13:00-15:00  Föreläsning  DD2395    F2                
-                 15:00-16:00  Räknestuga   DD2380    Egen              22:an
-Tis  (09)sep-04  10:00-12:00  Föreläsning  DD2387    B2                
-                 10:00-12:00 -Föreläsning  DD2395    M2                
-                /12:45+13:10  möte         adk       1537              Reserv
-                 13:00-14:00  MÖTE         adk       1537              
-                /13:00-18:00  SEMINARIUM   MJ2612    V34               
-Ons  (09)sep-05  15:00-17:00  Föreläsning  DD2380    F1                
-Tor  (09)sep-06  13:00-15:00  Övning       DD2387    V11               
-                *15:00-17:00  UNDERVISNING egen      Maclean [L]       Maple-undervisning för ettan
-                 15:00-17:00 -Laboration   DD2387    Sport             Hjälp
-                *15:00-17:00  Laboration   DD2380    Spel              
-Fre  (09)sep-07 ^10:00-12:00  Föreläsning  DD2387    D3                
-                ~10:00-12:00  handledning  adk       Gul, Brun         
-                ^13:00-17:00  SEMINARIUM   MJ2612    L31               
-                ~13:00-15:00  Laboration   DD2387    Röd               Hjälp
-                ~13:00-15:00  Föreläsning  DD2380    F1                
-                ~15:00-17:00  Övning       DD2387    D34               
-                ~15:00-17:00  Räknestuga   DD2380    Egen              22:an
+::Vecka 04, 2013
+Mån  (01)jan-21  10:00-12:00  Föreläsning  SK1103    FB52              
+                 15:00-17:00  Övning       DH1603a   L31n              
+Tis  (01)jan-22 *13:00-15:00  Föreläsning  DN2264    Q21               
+                *13:00-15:00  Övning       DH1603c   L21               
+                *13:00-15:00  Övning       SK1103    FB53-54, FD41     
+Tor  (01)jan-24 *10:00-12:00  Föreläsning  DD2264    V21               
+                *10:00-12:00  Övning       DH1603b   D42               
+                 13:00-15:00  Övning       SK1103    FB42              
+                 15:00-17:00  Föreläsning  DH1603    E35               
+Fre  (01)jan-25  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DD2448    Q36               
 
 
-::Vecka 37, 2012
-Mån  (09)sep-10 >08:00-10:00  Föreläsning  DD2395    E1                
-                ^10:00-12:00  Föreläsning  DD2380    F1                
-                ~10:00-12:00  SEMINARIUM   MJ2612    Q24               
-                 13:00-15:00  Laboration   DD2387    Brun              Hjälp
-		 17:00-..:..  egen         egen      egen              
-Tis  (09)sep-11  13:00-15:00  Föreläsning  DD2387    B3                
-                ^15:00-17:00  FÖRELÄSNING  MJ2612    K53               
-                ~16:00-17:00  Räknestuga   DD2380    Egen              22:an
-Ons  (09)sep-12  10:00-12:00  HANDLEDNING  adk       Spel, Sport       
-                ~13:00-17:00  Seminarium   MJ2612    M21-22            
-                ^15:00-17:00  Föreläsning  DD2380    F1                
-Tor  (09)sep-13  10:00-12:00  Övning       DD2387    E35               
-                 15:00-17:00  Laboration   DD2380    Spel              
-Fre  (09)sep-14  08:00-10:00  REDOVISNING  MJ2612    E53               
-                ^10:00-12:00  Föreläsning  DD2380    Q1                
-                ^13:00-15:00  Räknestuga   DD2380    Egen              22:an
-                ~13:00-17:00  handledning  adk       Orange, Brun      
-                ^15:00-17:00  Övning       DD2387    E36               
+::Vecka 05, 2013
+Mån  (01)jan-28 *10:00-12:00  Övning       DH1603a   L31               
+                *10:00-12:00  Föreläsning  DN2264    V11               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+Tis  (01)jan-29 *13:00-15:00  Övning       DH1603c   L31               
+                *13:00-15:00  Laboration   DN2264    Orange            
+                *13:00-15:00  Övning       SK1103    FB53-55, FD41     
+Ons  (01)jan-30  13:00-15:00  Övning       DH1603b   L41               
+Tor  (01)jan-31  10:00-12:00  Övning       DH1603a   L31               
+                 13:00-15:00  Föreläsning  DN2264    D41               
+                 15:00-17:00  Övning       DH1603b   L31               
+Fre  (02)feb-01  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DD2448    Q33               
+                 15:00-15:00  Övning       DH1603c   L21               
 
 
-::Vecka 38, 2012
-Mån  (09)sep-17  08:00-09:00  Föreläsning  DD2395    E1                
-                 14:00-15:00  Föreläsning  DD2395    E1                
-                 15:00-17:00  Laboration   DD2380    Spel              
-Tis  (09)sep-18 *08:00-10:00  Laboration   DD2395    Gul               
-                *08:00-10:00  Föreläsning  DD2380    F1                
-                 15:00-17:00  Räknestuga   DD2380    Egen              22:an
-Ons  (09)sep-19  08:00-10:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Föreläsning  MJ2612    E3                
-                 15:00-17:00  Övning       DD2387    Brun              Hjälp
-Tor  (09)sep-20 ^13:00-15:00  HANDLEDNING  adk       Spel, Sport       
-                ~14:00-16:00  Räknestuga   DD2380    Egen              22:an
-                ^15:00-17:00  Föreläsning  DD2380    F1                
-Fre  (09)sep-21  10:00-12:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Laboration   DD2395    Gul               
-                 15:00-17:00  Föreläsning  DD2387    D3                
+::Vecka 06, 2013
+Mån  (02)feb-04  08:00-10:00  Föreläsning  DH1603    D34               
+                 10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Övning       DH1603a   D42               
+Tis  (02)feb-05  08:00-10:00  Övning       DH1603b   D42               
+                 13:00-15:00  Övning       SK1103    FB53-55, FD41     
+                 15:00-17:00  Övning       DH1603c   L41               
+Ons  (02)feb-06  10:00-12:00  Övning       DH1603a   L31               
+                 15:00-17:00  Övning       DH1603b   D42               
+Tor  (02)feb-07  15:00-17:00  Övning       DH1603c   L41               
+Fre  (02)feb-08  13:00-15:00  Föreläsning  DD2448    L52               
 
 
-::Vecka 39, 2012
-Mån  (09)sep-24 *13:00-15:00  Föreläsning  DD2395    Q1                
-                *13:00-15:00  SEMINARIUM   MJ2612    L31               
-                *15:00-17:00  Laboration   DD2387    Orange            
-Tis  (09)sep-25 ^08:00-10:00  Föreläsning  DD2380    D1                
-                ~08:00-10:00  handledning  adk       Spel, Sport       
-                 10:00-12:00  Laboration   DD2395    Gul, Orange       
-                *15:00-17:00  Föreläsning  DD2395    F2                
-                *15:00-19:00  REDOVISNING  DD2387    Grön              
-                ^16:00-17:00  Räknestuga   DD2380    Egen              22:an
-Ons  (09)sep-26  08:00-10:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Föreläsning  DD2380    F2                
-                -15:00-17:00  Föreläsning  DD2387    B3                
-Tor  (09)sep-27  08:00-10:00  Föreläsning  DD2387    D2                
-                *15:00-17:00  Övning       DD2387    E31               
-                *15:00-17:00  Laboration   DD2380    Spel              
-                *15:00-17:00  FÖRELÄSNING  MJ2612    K2                
-Fre  (09)sep-28  10:00-12:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Laboration   DD2395    Gul               
-                ~15:00-17:00  Övning       DD2387    D34               
-                ~15:00-17:00  Räknestuga   DD2380    Egen              22:an
-                ^15:00-19:00  HANDLEDNING  adk       Sport, Grå, Karm. 
-                ~17:00-19:00  Laboration   DD2387    Orange            Hjälp
+::Vecka 07, 2013
+Mån  (02)feb-11  10:00-12:00  Föreläsning  SK1103    FR4               
+Tis  (02)feb-12  13:00-15:00  Föreläsning  DN2264    D42               
+Ons  (02)feb-13  10:00-12:00  Övning       DH1603a   L31               
+                 13:00-15:00  Övning       DH1603b   D42               
+Tor  (02)feb-14  08:00-10:00  Övning       DH1603c   L44               
+                *10:00-12:00  Föreläsning  DN2264    D42               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Föreläsning  DH1603    E51               
+Fre  (02)feb-15  10:00-12:00  Föreläsning  DN2264    D41               
+                 13:00-15:00  Föreläsning  DD2448    L52               
 
 
-::Vecka 40, 2012
-Mån  (10)okt-01  15:00-17:00  Laboration   DD2387    Orange            Hjälp
-Tis  (10)okt-02  08:00-10:00  Laboration   DD2395    Gul               
-                *15:00-17:00  Föreläsning  DD2387    B3                
-                *16:00-17:00  Räknestuga   DD2380    Egen              22:an
-Ons  (10)okt-03  08:00-10:00  Laboration   DD2395    Gul               
-                 10:00-12:00  Förläsning   DD2380    F1                
-                 15:00-17:00  Laboration   DD2380    Spel              
-Tor  (10)okt-04  08:00-10:00  Föreläsning  DD2395    F1                
-                 13:00-17:00  SEMINARIUM   MJ2612    L42               
-Fre  (10)okt-05  08:00-10:00  HANDLEDNING  adk       Sport, Grå, Karm. 
-                 10:00-12:00  Laboration   DD2395    Gul               
-                *13:00-15:00  Räknestuga   DD2380    Egen              22:an
-                *13:00-15:00  Laboration   DD2395    Gul               
+::Vecka 08, 2013
+Mån  (02)feb-18 *10:00-12:00  Övning       DH1603a   L31               
+                *10:00-12:00  Övning       SK1103    FB53-55, FD41     
+                 15:00-17:00  Övning       DH1603b   L31               
+Tis  (02)feb-19  10:00-12:00  Övning       DH1603c   D34               
+                *13:00-15:00  Föreläsning  DN2264    Q21               
+                *13:00-15:00  Föreläsning  SK1103    FR4               
+Ons  (02)feb-20  08:00-10:00  Övning       DH1603a   L31               
+Tor  (02)feb-21 *10:00-12:00  Föreläsning  DN2264    V21               
+                *10:00-12:00  Övning       DH1603b   L31               
+                 13:00-15:00  Övning       DH1603c   L22               
+Fre  (02)feb-22  13:00-15:00  Föreläsning  DD2448    L52               
 
 
-::Vecka 41, 2012
-Tis  (10)okt-09  08:00-10:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Föreläsning  DD2387    D3                
-                 16:00-17:00  Räknestuga   DD2380    Egen              22:an
-Ons  (10)okt-10  08:00-10:00  Laboration   DD2395    Gul               
-                *13:00-15:00  Föreläsning  DD2395    F2                
-                *13:00-17:00  Seminarium   MJ2612    K53               
-Tor  (10)okt-11  15:00-17:00  Föreläsning  DD2395    E1                
-Fre  (10)okt-12 !10:00-12:00  Laboration   DD2395    Gul               
-                *13:00-15:00  Laboration   DD2380    Brun              
-                *13:00-15:00  Laboration   DD2395    Gul               
-                ~15:00-17:00  Räknestuga   DD2380    Egen              22:an
-                ^15:00-17:00  HANDLEDNING  adk       Sport, Grå, Karm. 
+::Vecka 09, 2013
+Mån  (02)feb-25  08:00-10:00  Föreläsning  DH1603    D32               
+                 10:00-12:00  Föreläsning  SK1103    FR4               
+Tis  (02)feb-26 *13:00-17:00  Laboration   SK1103    ?                 
+                *13:00-15:00  Föreläsning  DN2264    D41               
+Ons  (02)feb-27  08:00-10:00  Föreläsning  DD2448    L52               
+                 10:00-12:00  Föreläsning  DH1603    E35               
+Fre  (03)mar-01  13:00-15:00  Övning       SK1103    FB53-55, FD41     
+
+
+::Vecka 10, 2013
+Mån  (03)mar-04  10:00-12:00  Övning       DH1603a   L31               
+                 15:00-17:00  Övning       DH1603b   L31               
+Tis  (03)mar-05  08:00-12:00  Övning       DH1603c   D33               
+                *10:00-12:00  Föreläsning  SK1103    FR4               
+                '10:00-17:00  Övning       DH1603a   L31               
+Ons  (03)mar-06  08:00-12:00  Laboration   SK1103    ?                 
+                 15:00-17:00  Övning       DH1603b   L31               
+Tor  (03)mar-07 *09:00-12:00  Räknestuga   SK1103    FB-53-55          
+                *10:00-12:00  Övning       DH1603c   D33               
+Fre  (03)mar-08  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Övning       SK1103    FB42/52,FD41,FE21 
+
+
+::Vecka 11, 2013
+Mån  (03)mar-11  09:00-12:00  Räknestuga   SK1103    FB53-55           
+                 13:00-15:00  Föreläsning  SK1103    FR4               
+
+
+::Vecka 12, 2013
+Mån  (03)mar-18  08:00-12:00  Laboration   SK1103    ?                 
+                 10:00-12:00  Föreläsning  DH1603    D34               
+                 13:00-15:00  Lektion      SF2719    E32               
+                *15:00-17:00  Övning       DH1603a   L31               
+                *15:00-17:00  Föreläsning  SK1103    FR4               
+Tis  (03)mar-19  15:00-17:00  Föreläsning  DD1396    D1                
+Ons  (03)mar-20  10:00-12:00  Lektion      SF2719    E32               
+                *13:00-17:00  Laboration   SK1103    ?                 
+                *15:00-17:00  Övning       DH1603b   L31               
+Tor  (03)mar-21  09:00-12:00  Räknestuga   SK1103    FB53-55           
+                 15:00-17:00  Övning       DH1603c   E31               
+Fre  (03)mar-22  08:00-10:00  Övning       DD1396    B21-24,D32-33,L41-44
+                 10:00-12:00  Övning       SK1103    FB53-55,FD41      
+                *13:00-15:00  Föreläsning  DD2448    Q33               
+                *13:00-15:00  Lektion      SF2719    E52               
+
+
+::Vecka 13, 2013
+Mån  (03)mar-25  08:00-10:00  Föreläsning  DH1603    E52               
+                 10:00-12:00  Övning       DH1603a   D33               
+                 10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Övning       DH1603b   L31               
+                 15:00-17:00  Övning       DH1603c   D33               
+Tis  (03)mar-26  15:00-17:00  Föreläsning  DD1396    D1                
+                 17:00-19:00  Övning       DH1603c   D33               
+Ons  (03)mar-27  08:00-10:00  Föreläsning  DD2448    V34               
+                 10:00-12:00  Lektion      SF2719    D41               
+                 15:00-17:00  Övning       DD1396    B21-24,D32-33,L41-44
+                 17:00-19:00  Övning       DH1603b   L31               
+Tor  (03)mar-28  08:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Lektion      SF2719    D41               
+                 17:00-19:00  Övning       DH1603a   D33               
 
 
 --- Tentaperiod ---
 
 
-::Vecka 42, 2012
-Mån  (10)okt-15  08:00+12:00  TENTAMEN     DD2387    F1                
-Tis  (10)okt-16  14:00+18:00  TENTAMEN     MJ2612    V12, V32          
+--- Period 4 ---
 
 
---- Period 2 ---
+::Vecka 15, 2013
+Mån  (04)apr-08  10:00-12:00  Övning       DH1603a   D33               
+                *13:00-15:00  Föreläsning  DD1396    E1                
+                *13:00-15:00  Övning       DH1603b   L31               
+                 15:00-17:00  Övning       DH1603c   D33               
+Ons  (04)apr-10  08:00-10:00  Föreläsning  DD2448    L52               
+                 10:00-12:00  Lektion      SF2719    D41               
+                 13:00-15:00  Övning       SK1103    FB53-55,FD41      
+                 15:00-17:00  Föreläsning  DH1604    E31               
+Tor  (04)apr-11  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Lektion      SF2719    D41               
+Fre  (04)apr-12  08:00-10:00  Övning       DD1396    B21-24,D32,D42,L41-44
+                *13:00-15:00  Lektion      SF2719    E32               
+                *13:00-15:00  Föreläsning  DD2448    Q34               
 
 
-::Vecka 43, 2012
-Mån  (10)okt-22  08:30+09:30  ?            UMK801    ?                 
-                 10:00+12:00  ?            UMK801    ?                 Matematik-didaktik
-                *13:00+15:00  ?            UMK801    ?                 Data-didaktik
-                *15:00-17:00  Laboration   DD2387    Gul               Hjälp
-Tis  (10)okt-23  08:00-17:00  VFU          UMK801    VFU               
-                 13:00-15:00  Föreläsning  DD2395    M2                
-Ons  (10)okt-24  08:00-17:00  VFU          UMK801    VFU               
-                 08:00-10:00  Laboration   DD2395    Gul               
-                 10:00-12:00  Laboration   DD2395    Gul               
-Tor  (10)okt-25  08:00-17:00  VFU          UMK801    VFU               
-                 13:00-15:00  Föreläsning  DD2395    M2                
-Fre  (10)okt-26  08:00-17:00  VFU          UMK801    VFU               
-                ~08:00-12:00  handledning  adk       Grön, Brun        
-                ^08:00-10:00  Laboration   DD2395    Gul               
-                ^10:00-12:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Föreläsning  DD2395    D1                
+::Vecka 16, 2013
+Mån  (04)apr-15  10:00-12:00  Föreläsning  SK1103    FR4               
+                 15:00-17:00  Lektion      SF2719    E32               
+Ons  (04)apr-17  10:00-12:00  Föreläsning  DH1603    D34               
+                 15:00-17:00  Övning       DH1603a   D33               
+Tor  (04)apr-18  08:00-10:00  Lektion      SF2719    D41               
+                 10:00-12:00  Övning       SK1103    FB53-55,FD41      
+                 10:00-12:00  Övning       DH1603b   D42               
+                 15:00-17:00  Övning       DH1603c   D33               
+Fre  (04)apr-19  13:00-15:00  Föreläsning  DD2448    Q34               
 
 
-::Vecka 44, 2012
-Mån  (10)okt-29  08:00-17:00  VFU          UMK801    VFU               
-Tis  (10)okt-30  08:00-17:00  VFU          UMK801    VFU               
-                 15:00-17:00  Föreläsning  DD2387    D3                
-Ons  (10)okt-31  08:00+11:00  ?            UMK801    ?                 Data-didaktik
-                *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
-                *15:00-17:00  Föreläsning  DD2395    F1                
-Tor  (11)nov-01  08:00-10:00  Föreläsning  DD2395    E1                
-                *11:00-15:00  Laboration   DD2395    Gul               
-                *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
-Fre  (11)nov-02  08:00+11:00  ?            UMK801    ?                 Data-didaktik
-                *13:00-17:00  REDOVISNING  DD2387    Orange            
-                ~13:00-17:00  Laboration   DD2395    Gul               
-                *13:00+15:00  ?            UMK801    ?                 Matematik-didaktik
-                ~15:00-17:00  handledning  adk       Sport, Grå, Karm. 
+::Vecka 17, 2013
+Mån  (04)apr-22  10:00-12:00  Övning       DH1603a   D33               
+                 13:00-15:00  Övning       DH1603b   D33               
+                 15:00-17:00  Övning       DH1603c   D33               
+Tis  (04)apr-23  13:00-15:00  Föreläsning  SK1103    FR4               
+Ons  (04)apr-24  08:00-10:00  Föreläsning  SK1103    FR4               
+                 10:00-12:00  Lektion      SF2719    D41               
+                 15:00-17:00  Övning       DH1603a   D33               
+                 17:00-19:00  Övning       DH1603b   D33               
+Tor  (04)apr-25  15:00-17:00  Övning       DH1603c   D33               
+Fre  (04)apr-26 *13:00-15:00  Föreläsning  DD2448    Q34               
+                *13:00-15:00  Lektion      DD2719    D41               
 
 
-::Vecka 45, 2012
-Mån  (11)nov-05  08:00-17:00  VFU          UMK801    VFU               
-                 10:00-12:00  HANDLEDNING  adk       Sport, Grå, Karm. 
-Tis  (11)nov-06  08:00-17:00  VFU          UMK801    VFU               
-                 15:00-17:00  Föreläsning  DD2395    F2                
-Ons  (11)nov-07  08:00-17:00  VFU          UMK801    VFU               
-                 13:00-15:00  Föreläsning  DD2395    F1                
-Tor  (11)nov-08  08:00-17:00  VFU          UMK801    VFU               
-                 08:00-12:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Seminarium   DD2395d   E35               
-Fre  (11)nov-09  08:00-17:00  VFU          UMK801    VFU               
-                 08:00-12:00  Laboration   DD2395    Gul               
-                 13:00-15:00  Seminarium   DD2395ef  V34-35            
-                 15:00-19:00  HANDLEDNING  adk       Sport, Grå, Karm. 
+::Vecka 18, 2013
+Mån  (04)apr-29  13:00-15:00  Lektion      SF2719    E52               
+Tis  (04)apr-30  10:00-12:00  Övning       SK1103    FB53-55,FD41      
+Tor  (05)maj-02  10:00-12:00  Föreläsning  SK1103    FR4               
+                 13:00-15:00  Lektion      SF2719    E31               
+Fre  (05)maj-03  13:00-15:00  Föreläsning  DD2448    Q34               
+LÖR  (05)maj-04  09:00-13:00  TENTAMEN     DH1603    E51, E52          
 
 
-::Vecka 46, 2012
-Mån  (11)nov-12  08:00-17:00  VFU          UMK801    VFU               
-Tis  (11)nov-13  08:00-17:00  VFU          UMK801    VFU               
-                 13:00-15:00  Föreläsning  DD2395    Q1                
-Ons  (11)nov-14  08:00-17:00  VFU          UMK801    VFU               
-Tor  (11)nov-15  08:00-17:00  VFU          UMK801    VFU               
-                 15:00-17:00  Föreläsning  DD2395    D1                
-Fre  (11)nov-16  08:00-17:00  VFU          UMK801    VFU               
-                *10:00-12:00  Laboration   DD2387    Orage             Hjälp
-                *10:00-12:00  Seminarium   DD2395abc D33, D41-42       
-                 13:00-15:00  Föreläsning  DD2387    B3                
+::Vecka 19, 2013
+Mån  (05)maj-06  10:00-12:00  Övning       SK1103    FB53-55,FD41      
+                 13:00-15:00  Lektion      SF2719    E32               
+Ons  (05)maj-08  10:00-12:00  Övning       SK1103    FB53-55,FD41      
+                 13:00-15:00  Lektion      SF2719    D41               
 
 
-::Vecka 47, 2012
-Mån  (11)nov-19  08:00-17:00  VFU          UMK801    VFU               
-Tis  (11)nov-20  08:00-17:00  VFU          UMK801    VFU               
-Ons  (11)nov-21  08:00-17:00  VFU          UMK801    VFU               
-Tor  (11)nov-22  08:00-17:00  VFU          UMK801    VFU               
-Fre  (11)nov-23  08:00-17:00  VFU          UMK801    VFU               
+::Vecka 20, 2013
+Mån  (05)maj-13  13:00-15:00  Lektion      SF2719    D41               
+Ons  (05)maj-15  10:00-12:00  Lektion      SF2719    D41               
+Fre  (05)maj-17  13:00-15:00  Föreläsning  DD2448    Q35               
 
 
-::Vecka 48, 2012
-Mån  (11)nov-26  08:00-17:00  VFU          UMK801    VFU               
-Tis  (11)nov-27  08:00-17:00  VFU          UMK801    VFU               
-Ons  (11)nov-28  08:00-17:00  VFU          UMK801    VFU               
-                 15:00-17:00  Laboration   DD2387    Orange            Hjälp
-Tor  (11)nov-29  08:00-17:00  VFU          UMK801    VFU               
-Fre  (11)nov-30  08:00-17:00  VFU          UMK801    VFU               
-                 10:00-12:00  Seminarium   DD2395gh  D33, D35          
+--- Tentaperiod ---
 
 
-::Vecka 49, 2012
-Mån  (12)dec-03  08:00-17:00  VFU          UMK801    VFU               
-Tis  (12)dec-04  08:00-17:00  VFU          UMK801    VFU               
-Ons  (12)dec-05  08:00-17:00  VFU          UMK801    VFU               
-Tor  (12)dec-06  08:00-17:00  VFU          UMK801    VFU               
-Fre  (12)dec-07  08:00-17:00  VFU          UMK801    VFU               
+::Vecka 21, 2013
+Tor  (05)maj-23  14:00-19:00  TENTAMEN     SF2719    E32, E36          
 
 
-::Vecka 50, 2012
-Mån  (12)dec-10  08:00-17:00  VFU          UMK801    VFU               
-Tis  (12)dec-11  08:00-17:00  VFU          UMK801    VFU               
-                 14:00-16:00  REDOVISNING  DD2387    Orange            
-Ons  (12)dec-12  08:00-17:00  VFU          UMK801    VFU               
-Tor  (12)dec-13  08:00-17:00  VFU          UMK801    VFU               
-Fre  (12)dec-14 ~08:00-17:00  VFU          UMK801    VFU               
-                ^14:00+19:00  TENTAMEN     DD2395    E33-36, E51-53    
-
-
-::Vecka 51, 2012
-Mon  (12)dec-17  09:00-12:00  HANDLEDNING  adk       ?                 
-
+::Vecka 22, 2013
+Tis  (05)maj-28  08:00-13:00  TENTAMEN     SK1103    FA31-32,FB51-55,FD41,FE21
