@@ -54,11 +54,11 @@ Fre  (01)jan-18  10:00-12:00  Föreläsning  SK1103    FB52
 ::Vecka 04, 2013
 Mån  (01)jan-21  10:00-12:00  Föreläsning  SK1103    FB52              
                 #15:00-17:00  Övning       DH1603a   L31n              
-Tis  (01)jan-22 *13:00-15:00  Föreläsning  DN2264    Q21               
+Tis  (01)jan-22 ^13:00-15:00  Föreläsning  DN2264    Q21               
                 #13:00-15:00  Övning       DH1603c   L21               
-                *13:00-15:00  Övning       SK1103    FB53-54, FD41     
-Tor  (01)jan-24 *10:00-12:00  Föreläsning  DD2264    V21               
-                *10:00-12:00  Övning       DH1603b   D42               
+                ~13:00-15:00  Övning       SK1103    FB53-54, FD41     
+Tor  (01)jan-24 ^10:00-12:00  Föreläsning  DD2264    V21               
+                ~10:00-12:00  Övning       DH1603b   D42               
                  13:00-15:00  Övning       SK1103    FB42              
                  15:00-17:00  Föreläsning  DH1603    E35               
 Fre  (01)jan-25  10:00-12:00  Föreläsning  SK1103    FR4               
@@ -68,18 +68,18 @@ Fre  (01)jan-25  10:00-12:00  Föreläsning  SK1103    FR4
 
 ::Vecka 05, 2013
 Mån  (01)jan-28 #10:00-12:00  Övning       DH1603a   L31               
-                *10:00-12:00  Föreläsning  DN2264    V11               
-                *10:00-12:00  Föreläsning  SK1103    FR4               
+                ^10:00-12:00  Föreläsning  DN2264    V11               
+                ~10:00-12:00  Föreläsning  SK1103    FR4               
 Tis  (01)jan-29 #13:00-15:00  Övning       DH1603c   L31               
-                *13:00-15:00  Laboration   DN2264    Orange            
-                *13:00-15:00  Övning       SK1103    FB53-55, FD41     
+                -13:00-15:00  Laboration   DN2264    Orange            
+                -13:00-15:00  Övning       SK1103    FB53-55, FD41     
 Ons  (01)jan-30  13:00-15:00  Övning       DH1603b   L41               
 Tor  (01)jan-31 #10:00-12:00  Övning       DH1603a   L31               
                  13:00-15:00  Föreläsning  DN2264    D41               
-                *15:00-16:00  Laboration   DD2458    Röd               Hemtalsgenomgång 1
-                *15:00-17:00  Övning       DH1603b   L31               
-Fre  (02)feb-01 *10:00-12:00  Föreläsning  SK1103    FR4               
-                *10:00-12:00  Föreläsning  DD2458    K53               Föreläsning 2: Datastrukturer
+                ~15:00-16:00  Laboration   DD2458    Röd               Hemtalsgenomgång 1
+                ^15:00-17:00  Övning       DH1603b   L31               
+Fre  (02)feb-01 ^10:00-12:00  Föreläsning  SK1103    FR4               
+                ~10:00-12:00  Föreläsning  DD2458    K53               Föreläsning 2: Datastrukturer
                  13:00-15:00  Föreläsning  DD2448    Q33               
                 #15:00-17:00  Övning       DH1603c   L21               
 
@@ -101,9 +101,9 @@ Fre  (02)feb-08  10:00-12:00  Föreläsning  DD2458    E53               Förel�
 
 ::Vecka 07, 2013
 Mån  (02)feb-11  10:00-12:00  Föreläsning  SK1103    FR4               
-Tis  (02)feb-12 *12:00-14:00  Seminarium   UDK200    ?                 
-                *13:00-15:00  Föreläsning  DN2264    D42               
-                *13:00-18:00  Laboration   DD2458    Spel              Problemsession 1
+Tis  (02)feb-12 ^12:00-14:00  Seminarium   UDK200    1511@ped          
+                ~13:00-15:00  Föreläsning  DN2264    D42               
+                ~13:00-18:00  Laboration   DD2458    Spel              Problemsession 1
 Ons  (02)feb-13 #10:00-12:00  Övning       DH1603a   L31               
                  13:00-15:00  Övning       DH1603b   D42               
                  15:00-17:00  Seminarium   UDK200    D32               
@@ -125,7 +125,7 @@ Tis  (02)feb-19 #10:00-12:00  Övning       DH1603c   D34
                 *13:00-15:00  Föreläsning  DN2264    Q21               
                 *13:00-15:00  Föreläsning  SK1103    FR4               
 Ons  (02)feb-20 #08:00-10:00  Övning       DH1603a   L31               
-                 13:00-16:00  ?            UDK200    ?                 
+                 13:00-16:00  Övning       UDK200    2431@ped          
 Tor  (02)feb-21 *10:00-12:00  Föreläsning  DN2264    V21               
                 *10:00-12:00  Övning       DH1603b   L31               
                 #13:00-15:00  Övning       DH1603c   L22               
@@ -158,10 +158,10 @@ Ons  (03)mar-06  08:00-12:00  Laboration   SK1103    ?
 Tor  (03)mar-07  09:00-12:00  Räknestuga   SK1103    FB-53-55          
                 #10:00-12:00  Övning       DH1603c   D33               
                  15:00-16:00  Laboration   DD2458    Röd               Hemtalsgenomgång 6
-Fre  (03)mar-08 *09:00-12:00  ?            UDK200    ?                 
-                *10:00-12:00  Föreläsning  SK1103    FR4               
-                *13:00-15:00  ?            UDK200    ?                 
-                *13:00-15:00  Övning       SK1103    FB42/52,FD41,FE21 
+Fre  (03)mar-08 ^09:00-12:00  Seminarium   UDK200    2431@ped          
+                ~10:00-12:00  Föreläsning  SK1103    FR4               
+                ^13:00-15:00  Seminarium   UDK200    2431@ped          
+                ~13:00-15:00  Övning       SK1103    FB42/52,FD41,FE21 
 
 
 ::Vecka 11, 2013
@@ -216,6 +216,7 @@ Tor  (03)mar-28  08:00-12:00  Föreläsning  SK1103    FR4
 
 
 ::Vecka 14, 2013
+Tor  (04)apr-03  13:00-15:00  Seminarium   UDK200    1511@ped          
 Fre  (04)apr-05  10:00-12:00  Föreläsning  DD2458    E53               Föreläsning 7: "Paradigmer" 3: kombinatorisk sökning
 
 
@@ -278,6 +279,7 @@ Fre  (04)apr-26  10:00-12:00  Föreläsning  DD2458    E53               Förel�
 ::Vecka 18, 2013
 Mån  (04)apr-29  13:00-15:00  Lektion      SF2719    E52               
 Tis  (04)apr-30  10:00-12:00  Övning       SK1103    FB53-55,FD41      
+                 13:00-16:00  EXAMINATION  UDK200    2403@ped          
 Tor  (05)maj-02  10:00-12:00  Föreläsning  SK1103    FR4               
                  13:00-15:00  Lektion      SF2719    E31               
                  15:00-16:00  Laboration   DD2458    Röd               Hemtalsgenomgång 10
